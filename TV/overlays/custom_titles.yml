@@ -1,0 +1,19 @@
+overlays:
+  episode_name_overlay:
+    plex_search:
+      any:
+        label: ShowTitleCard          
+        season_label: ShowTitleCard   
+        episode_label: ShowTitleCard  
+    overlay:
+      name: text(<<title>>)
+      horizontal_align: left
+      horizontal_offset: 50        
+      vertical_align: bottom
+      vertical_offset: 50          
+      font: fonts/Inter-Bold.ttf   
+      font_size: 72                
+      font_color: "#FFFFFF"        
+      back_color: "#000000B3"      
+      back_padding: 25             
+      back_radius: 10              
