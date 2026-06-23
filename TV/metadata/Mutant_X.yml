@@ -1,5 +1,5 @@
 metadata:
-  323998: # Direct Plex Rating Key for Mutant X
+  item_id: 323998 # This tells Kometa: "Use the local Plex Key 323998"
     seasons:
       1:
         episodes:
