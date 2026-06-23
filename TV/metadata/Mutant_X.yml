@@ -1,8 +1,8 @@
 metadata:
-  item_id: 323998 # This tells Kometa: "Use the local Plex Key 323998"
+  76533: # TVDb ID for Mutant X
     seasons:
       1:
-        episodes:
+        episodes
           1:
             url_poster: https://api.mediux.pro/assets/952059b3-f73d-4cd8-8810-6ada52c8929a
           2:
