@@ -32,4 +32,11 @@ collections:
     builder_level: episode
     collection_order: custom
     sync_mode: sync
-    sort_title: "!004_X-Fil
+    sort_title: "!004_X-Files Mythology - Vol 4"
+
+  "X-Files Movies":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-movies
+    builder_level: episode
+    collection_order: alpha
+    sync_mode: sync
+    sort_title: "!005_X-Files Movies"
