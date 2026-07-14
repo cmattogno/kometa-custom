@@ -1,0 +1,42 @@
+collections:
+  "X-Files Mythology":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-mythology
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    summary: "The complete mythology (mytharc) of The X-Files — all conspiracy episodes plus feature films, in chronological order."
+
+  "X-Files Mythology - Vol 1: Abduction":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-abduction
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!001_X-Files Mythology - Vol 1"
+
+  "X-Files Mythology - Vol 2: Black Oil":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-black-oil
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!002_X-Files Mythology - Vol 2"
+
+  "X-Files Mythology - Vol 3: Colonization":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-colonization
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!003_X-Files Mythology - Vol 3"
+
+  "X-Files Mythology - Vol 4: Super Soldiers":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-super-soldiers
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!004_X-Files Mythology - Vol 4"
+
+  "X-Files Movies":
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-movies
+    builder_level: episode
+    collection_order: alpha
+    sync_mode: sync
+    sort_title: "!005_X-Files Movies"
