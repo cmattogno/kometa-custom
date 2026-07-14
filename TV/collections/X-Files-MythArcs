@@ -1,0 +1,28 @@
+collections:
+  X-Files Mythology - Vol 1: Abduction:
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-abduction
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!001_X-Files Mythology - Vol 1 - Abduction"
+
+  X-Files Mythology - Vol 2: Black Oil:
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-black-oil
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!002_X-Files Mythology - Vol 2 - Black Oil"
+
+  X-Files Mythology - Vol 3: Colonization:
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-colonization
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!003_X-Files Mythology - Vol 3 - Colonization"
+
+  X-Files Mythology - Vol 4: Super Soldiers:
+    trakt_list: https://trakt.tv/users/XopherVT/lists/xfiles-super-soldiers
+    builder_level: episode
+    collection_order: custom
+    sync_mode: sync
+    sort_title: "!004_X-Files Mythology - Vol 4 - Super Soldiers"
