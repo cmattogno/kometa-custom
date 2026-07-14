@@ -1,0 +1,86 @@
+collections:
+  "The X-Files — <Episode Group Name>":
+    sort_title: original
+    plex_search:
+      title: "The X-Files"
+      smart_filter:
+        seasons:
+          1:
+            episodes:
+              - 1
+              - 2
+              - 10
+              - 17
+              - 24
+          2:
+            episodes:
+              - 1
+              - 5
+              - 6
+              - 8
+              - 10
+              - 16
+              - 17
+              - 25
+          3:
+            episodes:
+              - 1
+              - 2
+              - 9
+              - 10
+              - 15
+              - 16
+              - 24
+          4:
+            episodes:
+              - 1
+              - 8
+              - 9
+              - 14
+              - 17
+              - 18
+              - 21
+              - 24
+          5:
+            episodes:
+              - 1
+              - 2
+              - 13
+              - 14
+              - 20
+          6:
+            episodes:
+              - 1
+              - 9
+              - 11
+              - 12
+              - 22
+          7:
+            episodes:
+              - 1
+              - 2
+              - 10
+              - 11
+              - 15
+              - 22
+          8:
+            episodes:
+              - 1
+              - 2
+              - 13
+              - 14
+              - 15
+              - 16
+              - 18
+              - 20
+              - 21
+          9:
+            episodes:
+              - 1
+              - 2
+              - 6
+              - 9
+              - 10
+              - 16
+              - 19
+              - 20
