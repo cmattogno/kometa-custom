@@ -2,9 +2,9 @@ collections:
   "X-Files Mythology - Vol 1: Abduction":
     builder_level: episode
     collection_order: custom
+    filter:
+      show: "The X-Files"
     plex_search:
-      all:
-        show: "The X-Files"
       any:
         title:
           - "Pilot"
@@ -28,9 +28,9 @@ collections:
   "X-Files Mythology - Vol 2: Black Oil":
     builder_level: episode
     collection_order: custom
+    filter:
+      show: "The X-Files"
     plex_search:
-      all:
-        show: "The X-Files"
       any:
         title:
           - "Nisei"
@@ -55,9 +55,9 @@ collections:
   "X-Files Mythology - Vol 3: Colonization":
     builder_level: episode
     collection_order: custom
+    filter:
+      show: "The X-Files"
     plex_search:
-      all:
-        show: "The X-Files"
       any:
         title:
           - "The End"
@@ -82,9 +82,9 @@ collections:
   "X-Files Mythology - Vol 4: Super Soldiers":
     builder_level: episode
     collection_order: custom
+    filter:
+      show: "The X-Files"
     plex_search:
-      all:
-        show: "The X-Files"
       any:
         title:
           - "Per Manum"
@@ -104,11 +104,11 @@ collections:
     summary: "Volume 4 – Super Soldiers: The super soldier conspiracy and finale (Seasons 8-9)."
 
   "X-Files Movies":
-    builder_level: episode
+    builder_level: movie
     collection_order: alpha
+    filter:
+      title: "The X-Files"
     plex_search:
-      all:
-        show: "The X-Files"
       any:
         title:
           - "The X-Files"
