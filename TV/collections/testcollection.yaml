@@ -1,0 +1,10 @@
+collections:
+  "TEST COLLECTION":
+    builder_level: episode
+    collection_order: custom
+    plex_search:
+      any:
+        show.title: "The X-Files"
+        title: "Pilot"
+    sort_title: "!000_TEST"
+    summary: "Test if search works"
