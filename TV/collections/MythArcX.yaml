@@ -3,7 +3,7 @@ collections:
     builder_level: episode
     collection_order: custom
     plex_search:
-        all:
+        any:
           title:
             - "Pilot"
             - "Deep Throat"
@@ -27,7 +27,7 @@ collections:
     builder_level: episode
     collection_order: custom
     plex_search:
-        all:
+        any:
           title:
             - "Nisei"
             - "731"
@@ -52,7 +52,7 @@ collections:
     builder_level: episode
     collection_order: custom
     plex_search:
-        all:
+        any:
           title:
             - "The End"
             - "The Beginning"
@@ -77,7 +77,7 @@ collections:
     builder_level: episode
     collection_order: custom
     plex_search:
-        all:
+        any:
           title:
             - "Per Manum"
             - "This Is Not Happening"
@@ -99,7 +99,7 @@ collections:
     builder_level: episode
     collection_order: alpha
     plex_search:
-        all:
+        any:
           title:
             - "The X-Files"
             - "The X-Files: I Want to Believe"
