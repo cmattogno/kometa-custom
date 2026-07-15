@@ -6,7 +6,7 @@ collections:
       show: "The X Files"
     plex_search:
       any:
-        title:
+        episode_title:
           - "Pilot"
           - "Deep Throat"
           - "Fallen Angel"
