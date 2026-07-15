@@ -3,7 +3,7 @@ collections:
     builder_level: episode
     collection_order: custom
     filter:
-      show: "The X-Files"
+      show: "The X Files"
     plex_search:
       any:
         title:
@@ -29,7 +29,7 @@ collections:
     builder_level: episode
     collection_order: custom
     filter:
-      show: "The X-Files"
+      show: "The X Files"
     plex_search:
       any:
         title:
@@ -56,7 +56,7 @@ collections:
     builder_level: episode
     collection_order: custom
     filter:
-      show: "The X-Files"
+      show: "The X Files"
     plex_search:
       any:
         title:
@@ -83,7 +83,7 @@ collections:
     builder_level: episode
     collection_order: custom
     filter:
-      show: "The X-Files"
+      show: "The X Files"
     plex_search:
       any:
         title:
@@ -107,7 +107,7 @@ collections:
     builder_level: movie
     collection_order: alpha
     filter:
-      title: "The X-Files"
+      title: "The X Files"
     plex_search:
       any:
         title:
