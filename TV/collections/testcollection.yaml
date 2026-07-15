@@ -4,7 +4,7 @@ collections:
     collection_order: custom
     plex_search:
       all:
-        show: "The X-Files"
+        show: "The X Files"
       any:
         title:
           - "Pilot"
