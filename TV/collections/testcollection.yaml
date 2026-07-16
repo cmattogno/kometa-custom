@@ -3,7 +3,7 @@ collections:
     builder_level: episode
     collection_order: custom
     filter:
-      title: "X Files"
+      title.is: "The X Files"
     plex_search:
       any:
         episode_title:
