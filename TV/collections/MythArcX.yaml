@@ -224,7 +224,7 @@ collections:
         title: "The X Files"
         any:
           episode_title:
-            - "The X-Files: Fight the Future"
-            - "The X-Files: I Want to Believe"
+            - "Fight the Future"
+            - "I Want to Believe"
     sort_title: "!005_X-Files Movies"
     summary: "X-Files feature films set within the mythology timeline."
