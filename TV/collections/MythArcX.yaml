@@ -1,7 +1,7 @@
 collections:
   "X-Files OG Mytharc":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
@@ -106,7 +106,7 @@ collections:
     
   "X Files - Abduction":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
@@ -133,7 +133,7 @@ collections:
 
   "X Files  - Black Oil":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
@@ -161,7 +161,7 @@ collections:
 
   "X Files - Colonization":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
@@ -189,7 +189,7 @@ collections:
 
   "X Files - Super Soldiers":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
@@ -214,7 +214,7 @@ collections:
 
   "X Files Movies":
     builder_level: episode
-    collection_order: custom
+    collection_order: release
     plex_search:
       type: episode
       all:
