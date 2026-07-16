@@ -57,7 +57,7 @@ collections:
             - "The End"
 
             # SEASON 0 (1 Movie)
-            - "The X-Files: Fight the Future"
+            - "Fight the Future"
             
             # SEASON 6 (5 Episodes)
             - "The Beginning"
@@ -134,7 +134,7 @@ collections:
     sort_title: "!001_X-Files Mythology - Vol 1"
     summary: "Volume 1 – Abduction: The beginning of the X-Files mythology arc (Seasons 1-3)."
 
-  "X Files  - Black Oil":
+  "X Files - Black Oil":
     builder_level: episode
     collection_order: release
     plex_search:
