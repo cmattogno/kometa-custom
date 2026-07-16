@@ -1,6 +1,11 @@
 metadata:
-  332766: # The X-Files (1998) Poster by Aloha_Alona on MediUX. https://mediux.pro/sets/7697
-    url_poster: https://api.mediux.pro/assets/4f8a978f-299e-4858-a8c2-1636fcef44d5
-
-  368853: # The X-Files: I Want to Believe (2008) Poster by Aloha_Alona on MediUX. https://mediux.pro/sets/7697
-    url_poster: https://api.mediux.pro/assets/3296c51d-d7de-4a49-98ca-9fe1bb512969
+  77398: # TVDB id for The X-Files. Set by MatatataM on MediUX. https://mediux.pro/sets/48079
+    url_background: https://api.mediux.pro/assets/5696f38c-e9c1-4337-8d11-de485bc13ae5
+    seasons:
+      0:
+        url_poster: https://api.mediux.pro/assets/7fa91953-2587-4b9f-8be6-d23bab7b3ad4
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/78907fd7-582d-4756-9952-17911d6c5718
+          2:
+            url_poster: https://api.mediux.pro/assets/8ddeb269-24d8-4146-a34b-089fa419853e
