@@ -55,6 +55,9 @@ collections:
             - "Patient X"
             - "The Red and the Black"
             - "The End"
+
+            # SEASON 0 (1 Movie)
+            - "The X-Files: Fight the Future"
             
             # SEASON 6 (5 Episodes)
             - "The Beginning"
@@ -221,7 +224,7 @@ collections:
         title: "The X Files"
         any:
           episode_title:
-            - "The X-Files"
+            - "The X-Files: Fight the Future"
             - "The X-Files: I Want to Believe"
     sort_title: "!005_X-Files Movies"
     summary: "X-Files feature films set within the mythology timeline."
