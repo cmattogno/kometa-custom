@@ -215,7 +215,7 @@ collections:
     sort_title: "!004_X-Files Mythology - Vol 4"
     summary: "Volume 4 – Super Soldiers: The super soldier conspiracy and finale (Seasons 8-9)."
 
-  "X Files Movies":
+  "X Files - Movies":
     builder_level: episode
     collection_order: release
     plex_search:
