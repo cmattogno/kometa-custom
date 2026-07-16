@@ -1,4 +1,110 @@
 collections:
+  "X-Files OG Mytharc":
+    builder_level: episode
+    collection_order: custom
+    plex_search:
+      type: episode
+      all:
+        title: "The X-Files"
+        any:
+          episode_title:
+            # SEASON 1 (5 Episodes)
+            - "Pilot"
+            - "Deep Throat"
+            - "Fallen Angel"
+            - "E.B.E."
+            - "The Erlenmeyer Flask"
+            
+            # SEASON 2 (8 Episodes)
+            - "Little Green Men"
+            - "Duane Barry"
+            - "Ascension"
+            - "One Breath"
+            - "Red Museum"
+            - "Colony"
+            - "End Game"
+            - "Anasazi"
+            
+            # SEASON 3 (8 Episodes)
+            - "The Blessing Way"
+            - "Paper Clip"
+            - "Nisei"
+            - "731"
+            - "Piper Maru"
+            - "Apocrypha"
+            - "Wetwired"
+            - "Talitha Cumi"
+            
+            # SEASON 4 (10 Episodes)
+            - "Herrenvolk"
+            - "Musings of a Cigarette Smoking Man"
+            - "Tunguska"
+            - "Terma"
+            - "Memento Mori"
+            - "Tempus Fugit"
+            - "Max"
+            - "Zero Sum"
+            - "Demons"
+            - "Gethsemane"
+            
+            # SEASON 5 (7 Episodes)
+            - "Redux"
+            - "Redux II"
+            - "Christmas Carol"
+            - "Emily"
+            - "Patient X"
+            - "The Red and the Black"
+            - "The End"
+            
+            # SEASON 6 (5 Episodes)
+            - "The Beginning"
+            - "S.R. 819"
+            - "Two Fathers"
+            - "One Son"
+            - "Biogenesis"
+            
+            # SEASON 7 (6 Episodes)
+            - "The Sixth Extinction"
+            - "The Sixth Extinction II: Amor Fati"
+            - "Sein Und Zeit"
+            - "Closure"
+            - "En Ami"
+            - "Requiem"
+            
+            # SEASON 8 (10 Episodes)
+            - "Within"
+            - "Without"
+            - "Per Manum"
+            - "This Is Not Happening"
+            - "Deadalive"
+            - "The Gift"
+            - "Three Words"
+            - "Vienen"
+            - "Essence"
+            - "Existence"
+            
+            # SEASON 9 (8 Episodes)
+            - "Nothing Important Happened Today"
+            - "Nothing Important Happened Today II"
+            - "Trust No 1"
+            - "Provenance"
+            - "Providence"
+            - "William"
+            - "The Truth"
+            - "The Truth II"
+            
+            # SEASON 10 (2 Episodes)
+            - "My Struggle"
+            - "My Struggle II"
+            
+            # SEASON 11 (3 Episodes)
+            - "My Struggle III"
+            - "Ghouli"
+            - "My Struggle IV"
+    sort_title: "!001_X-Files Mythology"
+    summary: "Complete mythology/conspiracy arc spanning all 11 seasons of The X-Files. 72 episodes covering alien colonization, the Syndicate, super soldiers, and the truth about Mulder and Scully's quest."
+    sync_mode: sync
+    
   "X Files - Abduction":
     builder_level: episode
     collection_order: custom
