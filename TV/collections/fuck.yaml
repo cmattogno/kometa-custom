@@ -5,7 +5,7 @@ collections:
     plex_search:
       type: episode
       all:
-        title: "The X-Files"
+        title: "The X Files"
         any:
           episode_title:
             - "Pilot"
