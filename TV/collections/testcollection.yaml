@@ -1,5 +1,5 @@
 collections:
-  "X-Files Mythology - Vol 1: Abduction":
+  "X Files Mythology - Vol 1: Abduction":
     builder_level: episode
     collection_order: custom
     filter:
@@ -9,6 +9,7 @@ collections:
         episode_title:
           - "Pilot"
           - "Deep Throat"
+          - "Squeeze"
           - "Fallen Angel"
           - "E.B.E."
           - "The Erlenmeyer Flask"
