@@ -4,5 +4,4 @@ playlist:
     trakt_list: https://trakt.tv/lists/23658349
     sync_mode: sync
     libraries: ${libraries}
-#    sync_to_users: Mars, Maura
     summary: Shows and movies added individually by episode to track watch progress.
