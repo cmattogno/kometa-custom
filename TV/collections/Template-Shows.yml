@@ -1,15 +1,42 @@
-# /config/TV/collections/MyFavoriteShows.yml
+# /config/TV/collections/RecommendedShows.yml
 
 collections:
-  My Favorite Shows (Complete):
+  Must-Watch TV Shows:
     sync_mode: sync
-    minimum_items: 5
+    minimum_items: 15
+    visible_library: true
+    visible_shared: true
+    
+    # OPTION 1: Complete shows (all episodes)
     plex_search:
       all:
         title:
-          - Breaking Bad
-          - Better Call Saul
-          - Ozark
-          - Peaky Blinders
-          - The Wire
-    # This creates a collection of ENTIRE SHOWS (all seasons + episodes)
+          - The Office (US)
+          - Parks and Recreation
+          - Brooklyn Nine-Nine
+          - Arrested Development
+          - Community
+          
+    # OPTION 2: Specific seasons only (uncomment to use)
+    # specific_seasons:
+    #   - tvdb_id: 73255
+    #     season: [1, 2, 3]  # Only these seasons
+    
+    # OPTION 3: Curated episodes (uncomment to use)
+    # items:
+    #   - tvdb_id: 73255
+    #     season: 1
+    #     episode: 5
+    #     name: Best Episode Name
+
+
+
+
+🔍 How to Find TVDb IDs
+
+    Go to thetvdb.com
+    Search for your show
+    Look at the URL: https://www.thetvdb.com/series/breaking-bad?tab=episodes
+    The ID is in the page source or API response (e.g., 78874)
+
+Or use Kometa's debug output — when it runs, it shows which TVDb IDs it matched.
