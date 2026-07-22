@@ -1,0 +1,25 @@
+# /config/Movies/collections/CollectionName.yml
+
+collections:
+  Collection Name Goes Here:
+    sync_mode: sync            # Keep synced, remove deleted items
+    minimum_items: 1           # Min items before creating collection
+    plex_search:               # Method 1: Search by title/attribute
+      all:
+        title:
+          - Movie Title 1
+          - Movie Title 2
+      any:
+        genre:                 # OR: search by genre, cast, director, etc.
+          - Action
+          - Adventure
+      none:
+        collection:            # Exclude items already in certain collections
+          - Some Other Collection
+
+    # OR Method 2: Explicit list by ID (most reliable)
+    # items:
+    #   - tmdb_id: 12345
+    #     name: Exact Movie Name
+    #   - imdb_id: tt1234567
+    #     name: Alternate Movie Name
