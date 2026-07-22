@@ -1,0 +1,14 @@
+collections:
+  Bullets, Bombs, and Babes:
+    sync_mode: sync
+    minimum_items: 24
+    plex_search:
+      all:
+        title:
+          - Tremors
+          - Tremors 2: Aftershocks
+          - Tremors 3: Back to Perfection
+          - Tremors 4: The Legend Begins
+          - Tremors 5: Bloodlines
+          - Tremors: A Cold Day in Hell
+          - Tremors: Shrieker Island
