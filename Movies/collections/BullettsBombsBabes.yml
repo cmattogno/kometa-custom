@@ -1,7 +1,19 @@
 collections:
-  James Bond (Chronological Order):
+  Bullets, Bombs, and Babes:
     sync_mode: sync
     minimum_items: 24
     plex_search:
       all:
         title:
+          - Malibu Express
+          - Hard Ticket to Hawaii
+          - Picasso Trigger
+          - Savage Beach
+          - Guns
+          - Do or Die
+          - Hard Hunted
+          - Fit to Kill
+          - Enemy Gold
+          - The Dallas Connection
+          - Day of the Warrior
+          - Return to Savage Beach
