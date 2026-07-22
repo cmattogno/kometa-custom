@@ -1,40 +1,32 @@
 collections:
-  "X-Files OG Mytharc":
-    builder_level: episode
-    collection_order: release
-    plex_search:
-      type: episode
-      all:
-        title: "The X Files"
-        any:
-          episode_title:
-
-Dr. No
-From Russia with Love
-Goldfinger
-Thunderball
-You Only Live Twice
-On Her Majesty’s Secret Service
-Diamonds Are Forever
-Live and Let Die
-The Man with the Golden Gun
-The Spy Who Loved Me
-Moonraker
-For Your Eyes Only
-Octopussy
-A View to a Kill
-The Living Daylights
-Licence to Kill
-GoldenEye
-Tomorrow Never Dies
-The World Is Not Enough
-Die Another Day
-Casino Royale
-Quantum of Solace
-Skyfall
-Spectre
-No Time to Die
-    sort_title: "The James Bond Collection "
-    summary: "Complete mythology/conspiracy arc spanning all 11 seasons of The X-Files. 72 episodes covering alien colonization, the Syndicate, super soldiers, and the truth about Mulder and Scully's quest."
+  James Bond (Chronological Order):
     sync_mode: sync
-    
+    minimum_items: 24
+    plex_search:
+      all:
+        title:
+          - Dr. No
+          - From Russia with Love
+          - Goldfinger
+          - Thunderball
+          - You Only Live Twice
+          - On Her Majesty's Secret Service
+          - Diamonds Are Forever
+          - Live and Let Die
+          - The Man with the Golden Gun
+          - The Spy Who Loved Me
+          - Moonraker
+          - For Your Eyes Only
+          - Octopussy
+          - A View to a Kill
+          - The Living Daylights
+          - Licence to Kill
+          - GoldenEye
+          - Tomorrow Never Dies
+          - The World Is Not Enough
+          - Die Another Day
+          - Casino Royale
+          - Quantum of Solace
+          - Skyfall
+          - Spectre
+          - No Time to Die
