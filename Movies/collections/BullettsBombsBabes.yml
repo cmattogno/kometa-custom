@@ -1,1 +1,7 @@
-
+collections:
+  James Bond (Chronological Order):
+    sync_mode: sync
+    minimum_items: 24
+    plex_search:
+      all:
+        title:
