@@ -1,3 +1,13 @@
+collections:
+  "X-Files OG Mytharc":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
 
 Dr. No
 From Russia with Love
@@ -24,3 +34,7 @@ Quantum of Solace
 Skyfall
 Spectre
 No Time to Die
+    sort_title: "The James Bond Collection "
+    summary: "Complete mythology/conspiracy arc spanning all 11 seasons of The X-Files. 72 episodes covering alien colonization, the Syndicate, super soldiers, and the truth about Mulder and Scully's quest."
+    sync_mode: sync
+    
