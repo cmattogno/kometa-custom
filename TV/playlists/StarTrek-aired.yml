@@ -1,7 +1,0 @@
-playlist:
-  # Star Trek - Aired (works for both Movies and TV Shows)
-  Star Trek - Episodic:
-    trakt_list: https://trakt.tv/lists/23658349
-    sync_mode: sync
-    libraries: ${libraries}
-    summary: Shows and movies added individually by episode to track watch progress.
