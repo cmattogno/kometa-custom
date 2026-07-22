@@ -1,0 +1,16 @@
+# /config/TV/collections/BetterCallSaulSeasons.yml
+
+collections:
+  Better Call Saul - Best Seasons:
+    sync_mode: sync
+    minimum_items: 10
+    plex_search:
+      all:
+        title: Better Call Saul
+      any:
+        season_number:
+          - 1
+          - 4
+          - 5
+          - 6
+    # This targets ONLY specific seasons (episodes within those seasons)
