@@ -1,0 +1,15 @@
+# /config/TV/collections/MyFavoriteShows.yml
+
+collections:
+  My Favorite Shows (Complete):
+    sync_mode: sync
+    minimum_items: 5
+    plex_search:
+      all:
+        title:
+          - Breaking Bad
+          - Better Call Saul
+          - Ozark
+          - Peaky Blinders
+          - The Wire
+    # This creates a collection of ENTIRE SHOWS (all seasons + episodes)
