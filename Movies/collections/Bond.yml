@@ -3,7 +3,7 @@ collections:
     sync_mode: sync
     minimum_items: 10
     sort_title: !040_James Bond         
-    collection_order: release.asc      #
+    collection_order: release.asc
     plex_search:
       any:
         title:
