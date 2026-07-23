@@ -4,6 +4,7 @@
 # Method: plex_search (no Trakt, no external API dependency)
 # Last Updated: 2026
 
+collections:
   TRUSTNO1:
     sort_title: "!044_X Files"
     summary: "X Files"
