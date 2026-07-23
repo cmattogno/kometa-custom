@@ -1,6 +1,28 @@
+# /config/TV/collections/LoneGunmen.yml
+
 collections:
-  The Lone Gunmen Collection :
-    mdblist_list: https://mdblist.com/lists/xophervt/the-lone-gunmen
-    collection_order: release
+  The Lone Gunmen (Complete):
     sync_mode: sync
-    sort_title: "!049_X-Files x Lone Gunmen"
+    minimum_items: 13
+    sort_title: "!045_Gunmen"
+    collection_order: release.asc
+    builder_level: episode
+    
+    plex_search:
+      any:
+        title:
+          - Pilot
+          - Bond, Jimmy Bond
+          - Eine Kleine Frohike
+          - Like Water for Octane
+          - Three Men and a Smoking Diaper
+          - Madam, I'm Adam
+          - Planet of the Frohikes
+          - Maximum Byers
+          - Diagnosis: Jimmy
+          - Tango de los Pistoleros
+          - The Lying Game
+          - All About Yves
+          - The Cap'n Toby Show
+        series_title:
+          - The Lone Gunmen
