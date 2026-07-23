@@ -1,6 +1,6 @@
 collections:
   The James Bond Collection :
     mdblist_list: https://mdblist.com/lists/andyhawks/universe-james-bond
-    collection_order: custom
+    collection_order: release
     sync_mode: sync
     sort_title: "!040_James Bond"         
