@@ -1,0 +1,356 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Kometa-Team/Kometa/nightly/json-schema/config-schema.json
+
+#######################################
+#  KOMETA CONFIGURATION               #
+#  TV Shows + Movies                  #
+#  Created: 2026-07-22                #
+#######################################
+
+#-------------------------------------#
+#                         PLEX
+#-------------------------------------#
+plex:
+  url: https://192-168-42-50.e0b1c53d7abd46fba674d7e15f4be32b.plex.direct:32400
+  token: 5y7An7JK5fzo1SqozAZ4
+  timeout: 60
+  db_cache: 1024
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+  verify_ssl: true
+
+#-------------------------------------#
+#                         TMDB
+#-------------------------------------#
+tmdb:
+  apikey: REDACTED
+  cache_expiration: 60
+  language: en
+  region: US
+
+#-------------------------------------#
+#                         MDBList
+#-------------------------------------#
+mdblist:
+  apikey: REDACTED
+  cache_expiration: 60
+
+#-------------------------------------#
+#                         Tautulli
+#-------------------------------------#
+tautulli:
+  url: https://tautulli.mattogno.com
+  apikey: REDACTED
+
+#-------------------------------------#
+#                         GitHub
+#-------------------------------------#
+github:
+  token: REDACTED
+
+#-------------------------------------#
+#                         SETTINGS
+#-------------------------------------#
+settings:
+  asset_depth: 4
+  asset_directory: []
+  asset_folders: true
+  cache: true
+  cache_expiration: 60
+  create_asset_folders: true
+  custom_repo: https://raw.githubusercontent.com/cmattogno/kometa-custom/main/
+  default_collection_order: release
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  dimensional_asset_rename: true
+  download_url_assets: true
+  minimum_items: 2
+  missing_only_released: true
+  only_filter_missing: true
+  overlay_artwork_filetype: png
+  overlay_artwork_quality: 90
+  playlist_report: true
+  prioritize_assets: true
+  run_again_delay: 4
+  run_order:
+  - operations
+  - metadata
+  - overlays
+  - collections
+  save_report: true
+  show_asset_not_needed: true
+  show_filtered: true
+  show_missing: false
+  show_missing_assets: true
+  show_missing_episode_assets: false
+  show_missing_season_assets: false
+  show_options: true
+  show_unconfigured: true
+  show_unfiltered: true
+  show_unmanaged: true
+  sync_mode: sync
+  tvdb_language: eng
+  verify_ssl: true
+
+  item_refresh_delay: 0
+  auto_sort_hubs:
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users:
+  playlist_exclude_users:
+#-------------------------------------#
+#                         Libraries   
+#-------------------------------------#
+libraries:
+#-------------------------------------#
+#                         TV Shows    
+#-------------------------------------#
+  TV Shows:
+    template_variables:
+      language: en
+
+    metadata_files:
+    - repo: TV/metadata/xfiles.movies.tvdb.yaml
+
+    collection_files:
+    
+    - default: basic
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: genre
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: emmy
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+        collection_order: release.asc
+
+    - default: decade
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: based
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: actor
+      schedule: weekly(monday)
+      template_variables:
+        style: signature
+        exclude:
+        - Ryan Reynolds
+        - Jack Black
+        visible_library: true
+        visible_shared: true
+        sort_by: title.asc
+        data:
+          limit: 35
+
+    - default: tautulli
+      schedule: weekly(monday)
+      template_variables:
+        use_watched: false
+        visible_library: true
+        visible_shared: true
+        collection_order: release.asc
+
+    - repo: TV/collections/MythArcX.yaml
+#      schedule: weekly(monday)
+
+    overlay_files:
+    - default: ribbon
+
+    - default: status
+      schedule_overlays: weekly(sunday|wednesday)
+      template_variables:
+        back_color_airing: '#016920FF'
+        back_color_returning: '#81007FFF'
+        back_color_canceled: '#B52222FF'
+        back_color_ended: '#000847FF'
+
+    - default: ratings
+      schedule_overlays: weekly(sunday|wednesday)
+      template_variables:
+        rating1: user
+        rating1_image: rt_tomato
+        rating1_font: LibreFranklin-Bold.ttf
+        horizontal_position: left
+        vertical_position: center
+
+    - default: commonsense
+      template_variables:
+        horizontal_offset: 0
+        vertical_offset: 150
+
+    - default: languages
+      template_variables:
+        use_subtitles: true
+
+    settings:
+      asset_directory:
+      - /Kometa_assets/TV
+      prioritize_assets: true
+
+    operations:
+      assets_for_all: true
+      assets_for_all_collections: true
+      mass_added_at_update:
+      - mdb
+      - mdb_digital
+      - tvdb
+      mass_audience_rating_update:
+      - tmdb
+      mass_critic_rating_update:
+      - mdb_metacritic
+      - mdb_tmdb
+      - mdb_tomatoes
+      mass_user_rating_update:
+      - mdb_tomatoesaudience
+
+#-------------------------------------#
+#                         Movies      #
+#-------------------------------------#
+  Movies:
+    template_variables:
+      language: en
+
+    metadata_files:
+    - repo: Movies/metadata/movies_mediux.yml
+#      schedule: weekly(monday)
+
+    collection_files:
+    - repo: Movies/collections/Bond.yml
+#      schedule: weekly(monday)
+
+    - repo: Movies/collections/BullettsBombsBabes.yml
+#      schedule: weekly(monday)
+
+    - repo: Movies/collections/Tremors.yml
+#      schedule: weekly(monday)
+
+    - repo: Movies/collections/heistsandcons.yml
+#      schedule: weekly(monday)
+      
+    - default: basic
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: genre
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: decade
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: universe
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+        collection_order: release.asc
+        
+    - default: actor
+      schedule: weekly(monday)
+      template_variables:
+        style: signature
+        exclude:
+        - Ryan Reynolds
+        - Jack Black
+        visible_library: true
+        visible_shared: true
+        sort_by: title.asc
+        data:
+          limit: 40
+
+    - default: imdb
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: tmdb
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+
+    - default: director
+      schedule: weekly(monday)
+      template_variables:
+        visible_library: true
+        visible_shared: true
+        data:
+          minimum: 5
+
+    - default: tautulli
+      schedule: weekly(monday)
+      template_variables:
+        use_watched: false
+        visible_library: true
+        visible_shared: true
+        collection_order: release.asc
+
+    overlay_files:
+    - default: ribbon
+
+    - default: status
+      schedule_overlays: weekly(sunday|wednesday)
+      template_variables:
+        back_color_unwatched: '#808080FF'
+        back_color_watched: '#016920FF'
+        back_color_planned: '#005B99FF'
+        back_color_pending: '#CC9900FF'
+
+    - default: ratings
+      schedule_overlays: weekly(sunday|wednesday)
+      template_variables:
+        rating1: user
+        rating1_image: rt_tomato
+        rating1_font: LibreFranklin-Bold.ttf
+        horizontal_position: left
+        vertical_position: center
+
+    - default: commonsense
+      template_variables:
+        horizontal_offset: 0
+        vertical_offset: 150
+
+    settings:
+      asset_directory:
+      - /Kometa_assets/Movies
+      prioritize_assets: true
+
+    operations:
+      assets_for_all: true
+      assets_for_all_collections: true
+      mass_added_at_update:
+      - mdb
+      - mdb_digital
+      - tmdb
+      mass_audience_rating_update:
+      - tmdb
+      mass_critic_rating_update:
+      - mdb_metacritic
+      - mdb_tmdb
+      - mdb_tomatoes
+      mass_user_rating_update:
+      - mdb_tomatoesaudience
