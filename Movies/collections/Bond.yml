@@ -1,7 +1,10 @@
 collections:
   James Bond (Chronological Order):
     sync_mode: sync
-    minimum_items: 24
+    minimum_items: 10
+    sort_title: !040_James Bond         
+    collection_order: release.asc      #
+    sync_mode: sync
     plex_search:
       any:
         title:
