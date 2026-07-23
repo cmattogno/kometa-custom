@@ -1,6 +1,56 @@
 collections:
-  Heists and Cons Collection:
-    mdblist_list: https://mdblist.com/lists/jwhoggart/con_heist_movies
-    collection_order: custom
+  Heists and Cons:
     sync_mode: sync
-    sort_title: "!060_Heists and Cons Collection"
+    minimum_items: 15
+    sort_title: "!042_Heists"
+    collection_order: release.asc
+    
+    plex_search:
+      any:
+        title:
+          # Classic Heists
+          - Heat
+          - Ocean's Eleven
+          - Ocean's Twelve
+          - Ocean's Thirteen
+          - The Italian Job
+          - The Usual Suspects
+          - Inside Man
+          - Reservoir Dogs
+          
+          # Mission: Impossible Franchise
+          - Mission: Impossible
+          - Mission: Impossible II
+          - Mission: Impossible III
+          - Mission: Impossible - Ghost Protocol
+          - Mission: Impossible - Rogue Nation
+          - Mission: Impossible - Fallout
+          - Mission: Impossible - Dead Reckoning Part One
+          - Mission: Impossible - The Final Reckoning
+          
+          # Fast & Furious (Con/Heist focused)
+          - The Fast and the Furious
+          - 2 Fast 2 Furious
+          - The Fast and the Furious: Tokyo Drift
+          - Fast & Furious
+          - Fast Five
+          - Fast & Furious 6
+          - Furious 7
+          - The Fate of the Furious
+          
+          # Modern Heist Films
+          - The Score
+          - The Town
+          - Den of Thieves
+          - Inception
+          - Logan Lucky
+          - Hell or High Water
+          - Ronin
+          - Baby Driver
+          - Triple Frontier
+          
+          # Comedies & Wild Cards
+          - Bottle Rocket
+          - Snatch
+          - Lock, Stock and Two Smoking Barrels
+          - The Bank Job
