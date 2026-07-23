@@ -4,11 +4,9 @@
 # Method: plex_search (no Trakt, no external API dependency)
 # Last Updated: 2026
 
-collections:
-  The X-Files:
-    type: separator
-    sort_title: "!045_X Files"
-    summary: "Trustno1"
+  TRUSTNO1:
+    sort_title: "!044_X Files"
+    summary: "X Files"
   
   "X-Files OG Mytharc":
     builder_level: episode
