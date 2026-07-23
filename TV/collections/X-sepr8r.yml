@@ -2,7 +2,7 @@ collections:
   "TRUSTNO1":
     sort_title: "!044_X Files"
     summary: "X Files"
-    minimum_items: 0              # Allow empty collection
+    minimum_items: 1              # Allow empty collection
     
     plex_search:                  # Required builder
       all:
