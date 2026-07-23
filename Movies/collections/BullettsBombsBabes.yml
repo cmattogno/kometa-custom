@@ -1,20 +1,5 @@
 collections:
-  Bullets, Bombs, and Babes:
+  Bullets, Bombs, and Babes :
+    mdblist_list: https://mdblist.com/lists/xophervt/bbb-7tghammqh7
+    collection_order: custom
     sync_mode: sync
-    minimum_items: 12
-    sort_title: "!040_Bullets"
-    collection_order: release.asc
-    
-    tmdb_list:
-      - 64494    # Malibu Express
-      - 26011    # Hard Ticket to Hawaii
-      - 14771    # Picasso Trigger
-      - 67394    # Savage Beach
-      - 46360    # Guns
-      - 35739    # Do or Die
-      - 20797    # Hard Hunted
-      - 45029    # Fit to Kill
-      - 49983    # Enemy Gold
-      - 67398    # The Dallas Connection
-      - 67396    # Day of the Warrior
-      - 67395    # L.E.T.H.A.L. Ladies: Return to Savage Beach
