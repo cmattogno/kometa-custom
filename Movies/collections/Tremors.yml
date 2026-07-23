@@ -1,9 +1,11 @@
 collections:
   Tremors:
     sync_mode: sync
-    minimum_items: 24
-    plex_search:
-      any:
+    minimum_items: 5
+    sort_title: !040_Tremors         
+    collection_order: release.asc      #
+    sync_mode: sync
+    plex_search:      any:
         title:
           - Tremors
           - Tremors 2: Aftershocks
