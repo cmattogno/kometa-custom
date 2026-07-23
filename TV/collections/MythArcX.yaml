@@ -10,13 +10,13 @@ collections:
     sort_title: "!045_X Files"
     summary: "Trustno1"
   
-  "X-Files Complete Mythology Arc":
+  "X-Files OG Mytharc":
     builder_level: episode
     collection_order: release
     plex_search:
       type: episode
       all:
-        title: "The X-Files"
+        title: "The X Files"
         any:
           episode_title:
             # SEASON 1 (5 Episodes)
@@ -43,6 +43,7 @@ collections:
             - "731"
             - "Piper Maru"
             - "Apocrypha"
+            - "Wetwired"
             - "Talitha Cumi"
             
             # SEASON 4 (10 Episodes)
@@ -65,6 +66,9 @@ collections:
             - "Patient X"
             - "The Red and the Black"
             - "The End"
+
+            # SEASON 0 (1 Movie)
+            - "The X-Files: Fight the Future"
             
             # SEASON 6 (5 Episodes)
             - "The Beginning"
@@ -101,7 +105,6 @@ collections:
             - "Providence"
             - "William"
             - "The Truth"
-            - "The Truth II"
             
             # SEASON 10 (2 Episodes)
             - "My Struggle"
@@ -111,6 +114,128 @@ collections:
             - "My Struggle III"
             - "Ghouli"
             - "My Struggle IV"
-    sort_title: "!001_X-Files Mythology"
-    summary: "Complete mythology/conspiracy arc spanning all 11 seasons of The X-Files. 72 episodes covering alien colonization, the Syndicate, super soldiers, and the truth about Mulder and Scully's quest."
+    sort_title: "!045_X-Files Mythology"
+    summary: "Complete mythology/conspiracy arc from all 11 seasons of The X-Files."
     sync_mode: sync
+    
+  "X Files - Abduction":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
+            - "Pilot"
+            - "Deep Throat"
+            - "Fallen Angel"
+            - "E.B.E."
+            - "The Erlenmeyer Flask"
+            - "Little Green Men"
+            - "Duane Barry"
+            - "Ascension"
+            - "One Breath"
+            - "Red Museum"
+            - "Colony"
+            - "End Game"
+            - "Anasazi"
+            - "The Blessing Way"
+            - "Paper Clip"
+    sort_title: "!045_X-Files Mythology - Vol 1"
+    summary: "Volume 1 – Abduction."
+
+  "X Files  - Black Oil":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
+            - "Nisei"
+            - "731"
+            - "Herrenvolk"
+            - "Piper Maru"
+            - "Apocrypha"
+            - "Tunguska"
+            - "Terma"
+            - "Memento Mori"
+            - "Tempus Fugit"
+            - "Max"
+            - "Zero Sum"
+            - "Gethsemane"
+            - "Redux"
+            - "Redux II"
+            - "Patient X"
+            - "The Red and the Black"
+    sort_title: "!045_X-Files Mythology - Vol 2"
+    summary: "Volume 2 – Black Oil"
+
+  "X Files - Colonization":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
+            - "The End"
+            - "The Beginning"
+            - "S.R. 819"
+            - "Two Fathers"
+            - "One Son"
+            - "Biogenesis"
+            - "The Sixth Extinction"
+            - "The Sixth Extinction II: Amor Fati"
+            - "Sein und Zeit"
+            - "Closure"
+            - "En Ami"
+            - "Requiem"
+            - "Within"
+            - "Without"
+            - "Patient X"
+            - "The Red and the Black"
+    sort_title: "!045_X-Files Mythology - Vol 3"
+    summary: "Volume 3 – Colonization"
+
+  "X Files - Super Soldiers":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
+            - "Per Manum"
+            - "This Is Not Happening"
+            - "Deadalive"
+            - "Three Words"
+            - "Vienen"
+            - "Essence"
+            - "Existence"
+            - "Nothing Important Happened Today"
+            - "Nothing Important Happened Today II"
+            - "Trust No 1"
+            - "Provenance"
+            - "Providence"
+            - "The Truth"
+    sort_title: "!045_X-Files Mythology - Vol 4"
+    summary: "Volume 4 – Super Soldiers"
+
+  "X Files - Movies":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "The X Files"
+        any:
+          episode_title:
+            - "Fight the Future"
+            - "I Want to Believe"
+    sort_title: "!045_X-Files Movies"
+    summary: "X-Files films"
