@@ -1,0 +1,5 @@
+collections:
+  Heists and Cons Collection:
+    mdblist_list: https://mdblist.com/lists/jwhoggart/con_heist_movies
+    collection_order: custom
+    sync_mode: sync
