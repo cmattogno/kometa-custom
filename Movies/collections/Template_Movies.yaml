@@ -13,11 +13,8 @@ collections:
         genre:                 # OR: search by genre, cast, director, etc.
           - Action
           - Adventure
-      none:
-        collection:            # Exclude items already in certain collections
-          - Some Other Collection
 
-    # OR Method 2: Explicit list by ID (most reliable)
+    # OR Method 2: Explicitly list by ID 
     # items:
     #   - tmdb_id: 12345
     #     name: Exact Movie Name
