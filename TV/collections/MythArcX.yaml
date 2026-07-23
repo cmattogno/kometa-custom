@@ -140,7 +140,7 @@
             - "Anasazi"
             - "The Blessing Way"
             - "Paper Clip"
-    sort_title: "!045_X-Files Mythology - Vol 1"
+    sort_title: "!046_X-Files Vol 1"
     summary: "Volume 1 – Abduction."
 
   "X Files  - Black Oil":
@@ -168,7 +168,7 @@
             - "Redux II"
             - "Patient X"
             - "The Red and the Black"
-    sort_title: "!045_X-Files Mythology - Vol 2"
+    sort_title: "!047_X-Files Vol 2"
     summary: "Volume 2 – Black Oil"
 
   "X Files - Colonization":
@@ -196,7 +196,7 @@
             - "Without"
             - "Patient X"
             - "The Red and the Black"
-    sort_title: "!045_X-Files Mythology - Vol 3"
+    sort_title: "!048_X-Files Vol 3"
     summary: "Volume 3 – Colonization"
 
   "X Files - Super Soldiers":
@@ -221,7 +221,7 @@
             - "Provenance"
             - "Providence"
             - "The Truth"
-    sort_title: "!045_X-Files Mythology - Vol 4"
+    sort_title: "!049_X-Files Vol 4"
     summary: "Volume 4 – Super Soldiers"
 
   "X Files - Movies":
@@ -235,5 +235,5 @@
           episode_title:
             - "Fight the Future"
             - "I Want to Believe"
-    sort_title: "!045_X-Files Movies"
+    sort_title: "!049_X-Files ! Movies"
     summary: "X-Files films"
