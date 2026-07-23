@@ -2,24 +2,30 @@ collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
     minimum_items: 9
-    sort_title: "040_Bullets"        # Removed the `!`
+    sort_title: "040_Bullets"
     collection_order: release.asc
-    plex_search:
-      all:                           # Added wrapper
-        any:
-          title:
-            - Malibu Express
-            - Hard Ticket to Hawaii
-            - Picasso Trigger
-            - Savage Beach
-            - Guns
-            - Do or Die
-            - Hard Hunted
-            - Fit to Kill
-            - Enemy Gold
-            - The Dallas Connection
-            - Day of the Warrior
-            - Return to Savage Beach
-        none:                        # Now nested under `all:`
-          title:
-            - Guns Up
+    items:
+      - tmdb_id: 29977  # Guns
+        name: Guns
+      - tmdb_id: 45560  # Malibu Express
+        name: Malibu Express
+      - tmdb_id: 44261  # Hard Ticket to Hawaii
+        name: Hard Ticket to Hawaii
+      - tmdb_id: 45610  # Picasso Trigger
+        name: Picasso Trigger
+      - tmdb_id: 18502  # Savage Beach
+        name: Savage Beach
+      - tmdb_id: 45590  # Do or Die
+        name: Do or Die
+      - tmdb_id: 45569  # Hard Hunted
+        name: Hard Hunted
+      - tmdb_id: 45572  # Fit to Kill
+        name: Fit to Kill
+      - tmdb_id: 45581  # Enemy Gold
+        name: Enemy Gold
+      - tmdb_id: 45588  # The Dallas Connection
+        name: The Dallas Connection
+      - tmdb_id: 45585  # Day of the Warrior
+        name: Day of the Warrior
+      - tmdb_id: 45580  # Return to Savage Beach
+        name: Return to Savage Beach
