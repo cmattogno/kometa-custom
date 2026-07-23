@@ -1,6 +1,14 @@
+# /config/TV/collections/Millennium.yml
+
 collections:
-  The Millenium Collection :
-    mdblist_list: https://mdblist.com/lists/xophervt/millennium
-    collection_order: release
+  Millennium:
     sync_mode: sync
-    sort_title: "!049_X-Files y Millennium"
+    minimum_items: 1
+    sort_title: "!046_Millennium"
+    collection_order: release.asc
+    builder_level: episode
+    
+    plex_search:
+      any:
+        series_title:
+          - Millennium
