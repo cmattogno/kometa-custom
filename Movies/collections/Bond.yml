@@ -1,5 +1,5 @@
 collections:
-  James Bond (Chronological Order):
+  The James Bond Collection:
     sync_mode: sync
     minimum_items: 10
     sort_title: !040_James Bond         
