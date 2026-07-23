@@ -2,23 +2,24 @@ collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
     minimum_items: 9
-    sort_title: !040_Bullets      
+    sort_title: "040_Bullets"        # Removed the `!`
     collection_order: release.asc
     plex_search:
-      any:
-        title:
-          - Malibu Express
-          - Hard Ticket to Hawaii
-          - Picasso Trigger
-          - Savage Beach
-          - Guns
-          - Do or Die
-          - Hard Hunted
-          - Fit to Kill
-          - Enemy Gold
-          - The Dallas Connection
-          - Day of the Warrior
-          - Return to Savage Beach
-      none:
-        title:
-          - Guns Up
+      all:                           # Added wrapper
+        any:
+          title:
+            - Malibu Express
+            - Hard Ticket to Hawaii
+            - Picasso Trigger
+            - Savage Beach
+            - Guns
+            - Do or Die
+            - Hard Hunted
+            - Fit to Kill
+            - Enemy Gold
+            - The Dallas Connection
+            - Day of the Warrior
+            - Return to Savage Beach
+        none:                        # Now nested under `all:`
+          title:
+            - Guns Up
