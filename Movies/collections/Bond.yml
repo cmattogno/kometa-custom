@@ -1,34 +1,7 @@
 collections:
-  The James Bond Collection:
+  The James Bond Collection :
+    mdblist_list: https://mdblist.com/lists/andyhawks/universe-james-bond
+    collection_order: custom
     sync_mode: sync
-    minimum_items: 10
-    sort_title: "!040_James Bond"         
-    collection_order: release.asc
-    plex_search:
-      any:
-        title:
-          - Dr. No
-          - From Russia with Love
-          - Goldfinger
-          - Thunderball
-          - You Only Live Twice
-          - On Her Majesty's Secret Service
-          - Diamonds Are Forever
-          - Live and Let Die
-          - The Man with the Golden Gun
-          - The Spy Who Loved Me
-          - Moonraker
-          - For Your Eyes Only
-          - Octopussy
-          - A View to a Kill
-          - The Living Daylights
-          - Licence to Kill
-          - GoldenEye
-          - Tomorrow Never Dies
-          - The World Is Not Enough
-          - Die Another Day
-          - Casino Royale
-          - Quantum of Solace
-          - Skyfall
-          - Spectre
-          - No Time to Die
+
+
