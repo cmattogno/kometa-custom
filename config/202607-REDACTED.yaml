@@ -11,7 +11,7 @@
 #-------------------------------------#
 plex:
   url: https://192-168-42-50.e0b1c53d7abd46fba674d7e15f4be32b.plex.direct:32400
-  token: 5y7An7JK5fzo1SqozAZ4
+  token: REDACTED
   timeout: 60
   db_cache: 1024
   clean_bundles: true
