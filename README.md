@@ -1,7 +1,7 @@
 Tips
 
 Don't want to run every collection/metadata/playlist/etc every day?
-
+```
 schedule:
           hourly(hr) - can be 12 or 24, also range 01-13 for start/stop
           daily - once a day
@@ -10,7 +10,7 @@ schedule:
           yearly(MM/DD)
           date(MM/DD/YYYY)
           all[weekly(sunday), hourly(17)] - mix and match
-
+```
 Want to add collection in-line with default collections?
 
 sort_title: "!001_Episode title"
