@@ -1,5 +1,5 @@
 collections:
-  Tremors:
+  Tremors Collection:
     sync_mode: sync
     minimum_items: 5
     sort_title: !040_Tremors         
