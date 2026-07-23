@@ -2,7 +2,7 @@ collections:
   Tremors Collection:
     sync_mode: sync
     minimum_items: 5
-    sort_title: !040_Tremors         
+    sort_title: "!040_Tremors"         
     collection_order: release.asc
     plex_search:
       any:
