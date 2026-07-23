@@ -5,29 +5,16 @@ collections:
     sort_title: "!040_Bullets"
     collection_order: release.asc
     
-    items:
-      # Andy Sidaris Triple B / L.E.T.H.A.L. Ladies Collection
-      - tmdb_id: 64494
-        name: Malibu Express
-      - tmdb_id: 26011
-        name: Hard Ticket to Hawaii
-      - tmdb_id: 14771
-        name: Picasso Trigger
-      - tmdb_id: 67394
-        name: Savage Beach
-      - tmdb_id: 46360
-        name: Guns
-      - tmdb_id: 35739
-        name: Do or Die
-      - tmdb_id: 20797
-        name: Hard Hunted
-      - tmdb_id: 45029
-        name: Fit to Kill
-      - tmdb_id: 49983
-        name: Enemy Gold
-      - tmdb_id: 67398
-        name: The Dallas Connection
-      - tmdb_id: 67396
-        name: Day of the Warrior
-      - tmdb_id: 67395
-        name: "L.E.T.H.A.L. Ladies: Return to Savage Beach"
+    tmdb_list:
+      - 64494    # Malibu Express
+      - 26011    # Hard Ticket to Hawaii
+      - 14771    # Picasso Trigger
+      - 67394    # Savage Beach
+      - 46360    # Guns
+      - 35739    # Do or Die
+      - 20797    # Hard Hunted
+      - 45029    # Fit to Kill
+      - 49983    # Enemy Gold
+      - 67398    # The Dallas Connection
+      - 67396    # Day of the Warrior
+      - 67395    # L.E.T.H.A.L. Ladies: Return to Savage Beach
