@@ -20,20 +20,19 @@ custom collection divider
         # /config/Movies/collections/Separators.yml
 
 collections:
-# /config/Movies/collections/CustomSeparators.yml
-
+```
 collections:
   Custom Collections:
     type: separator
     sort_title: "!035_Custom Collections"
     summary: "My personally curated movie collections"
-
+```
 Adding a Poster to Your Separator
 
 Kometa automatically looks for poster images in your asset directory. To add a custom poster:
 
     Create a folder in your assets directory matching the separator name:
-
+```
    /Kometa_assets/Movies/
    └── Custom Collections/
        └── poster.png
