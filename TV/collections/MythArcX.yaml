@@ -5,6 +5,11 @@
 # Last Updated: 2026
 
 collections:
+  The X-Files:
+    type: separator
+    sort_title: "!045_X Files"
+    summary: "Trustno1"
+  
   "X-Files Complete Mythology Arc":
     builder_level: episode
     collection_order: release
