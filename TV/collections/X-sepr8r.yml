@@ -2,12 +2,5 @@ collections:
   "The Truth is In Here":
     sort_title: "!044_X Files"
     summary: "X Files"
-    minimum_items: 1              # Allow empty collection
-    
-    plex_search:                  # Required builder
-      all:
-        title: "ZZZ-flurby"   # Returns 0 items
-    
-    # WORKAROUND: Add one placeholder item
-    template_variables:
-      placeholder_imdb_id: tt0443701
+    minimum_items: 1
+    imdb_id: tt0443701 
