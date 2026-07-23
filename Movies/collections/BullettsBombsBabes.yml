@@ -4,7 +4,6 @@ collections:
     minimum_items: 9
     sort_title: !040_Bullets      
     collection_order: release.asc      #
-    sync_mode: sync
     plex_search:
       any:
         title:
