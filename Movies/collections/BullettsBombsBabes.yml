@@ -1,6 +1,24 @@
+# /config/Movies/collections/BulletsBombsBabes.yml
+
 collections:
-  Bullets, Bombs, and Babes :
-    mdblist_list: https://mdblist.com/lists/xophervt/bbb-7tghammqh7
-    collection_order: custom
+  Bullets, Bombs, and Babes:
     sync_mode: sync
-    sort_title: "!040_Bullets, Bombs, and Babes"         
+    minimum_items: 12
+    sort_title: "!040_Bullets"
+    collection_order: release.asc
+    
+    plex_search:
+      any:
+        title:
+          - Malibu Express
+          - Hard Ticket to Hawaii
+          - Picasso Trigger
+          - Savage Beach
+          - Guns
+          - Do or Die
+          - Hard Hunted
+          - Fit to Kill
+          - Enemy Gold
+          - The Dallas Connection
+          - Day of the Warrior
+          - L.E.T.H.A.L. Ladies: Return to Savage Beach
