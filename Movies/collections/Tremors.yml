@@ -3,7 +3,7 @@ collections:
     sync_mode: sync
     minimum_items: 24
     plex_search:
-      all:
+      any:
         title:
           - Tremors
           - Tremors 2: Aftershocks
