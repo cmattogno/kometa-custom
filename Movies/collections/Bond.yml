@@ -1,6 +1,44 @@
 collections:
-  The James Bond Collection :
-    mdblist_list: https://mdblist.com/lists/andyhawks/universe-james-bond
-    collection_order: release
+  James Bond Universe:
     sync_mode: sync
-    sort_title: "!040_James Bond"         
+    minimum_items: 20
+    sort_title: "!041_Bond"
+    collection_order: release.asc
+    
+    plex_search:
+      any:
+        title:
+          # Sean Connery Era
+          - Dr. No
+          - From Russia with Love
+          - Goldfinger
+          - Thunderball
+          - You Only Live Twice
+          - Diamonds Are Forever
+          # George Lazenby
+          - On Her Majesty's Secret Service
+          # Roger Moore Era
+          - Live and Let Die
+          - The Man with the Golden Gun
+          - The Spy Who Loved Me
+          - Moonraker
+          - For Your Eyes Only
+          - Octopussy
+          - A View to a Kill
+          # Timothy Dalton Era
+          - The Living Daylights
+          - Licence to Kill
+          # Pierce Brosnan Era
+          - GoldenEye
+          - Tomorrow Never Dies
+          - The World Is Not Enough
+          - Die Another Day
+          # Daniel Craig Era
+          - Casino Royale
+          - Quantum of Solace
+          - Skyfall
+          - Spectre
+          - No Time to Die
+          # Non-Eon Films
+          - Casino Royale 1967
+          - Never Say Never Again
