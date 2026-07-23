@@ -12,10 +12,10 @@ schedule:
           all[weekly(sunday), hourly(17)] - mix and match
 ```
 Want to add collection in-line with default collections?
-
+```
 sort_title: "!001_Episode title"
         Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
-
+```
 custom collection divider
         # /config/Movies/collections/Separators.yml
 
