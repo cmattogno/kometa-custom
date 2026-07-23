@@ -2,7 +2,7 @@ collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
     minimum_items: 12
-    sort_title: "040_Bullets"
+    sort_title: "!040_Bullets"
     collection_order: release.asc
     
     items:
@@ -30,4 +30,4 @@ collections:
       - tmdb_id: 67396
         name: Day of the Warrior
       - tmdb_id: 67395
-        name: L.E.T.H.A.L. Ladies: Return to Savage Beach
+        name: "L.E.T.H.A.L. Ladies: Return to Savage Beach"
