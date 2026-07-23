@@ -5,7 +5,7 @@ collections:
     sort_title: !040_Tremors         
     collection_order: release.asc
     plex_search:
-    any:
+      any:
         title:
           - Tremors
           - Tremors 2: Aftershocks
