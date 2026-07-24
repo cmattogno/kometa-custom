@@ -110,7 +110,7 @@ collections:
             - "My Struggle III"
             - "Ghouli"
             - "My Struggle IV"
-    sort_title: "!045_X-Files Mythology"
+    sort_title: "!050_X-Files Mythology"
     summary: "Complete mythology/conspiracy arc from all 11 seasons of The X-Files."
     sync_mode: sync
     
@@ -166,7 +166,7 @@ collections:
             - "Redux II"
             - "Patient X"
             - "The Red and the Black"
-    sort_title: "!047_X-Files Vol 2"
+    sort_title: "!050_X-Files Vol 2"
     summary: "Volume 2 – Black Oil"
 
   "X Files - Colonization":
@@ -194,7 +194,7 @@ collections:
             - "Without"
             - "Patient X"
             - "The Red and the Black"
-    sort_title: "!048_X-Files Vol 3"
+    sort_title: "!050_X-Files Vol 3"
     summary: "Volume 3 – Colonization"
 
   "X Files - Super Soldiers":
@@ -233,5 +233,5 @@ collections:
           episode_title:
             - "Fight the Future"
             - "I Want to Believe"
-    sort_title: "!049_X-Files z Movies"
+    sort_title: "!050_X-Files z Movies"
     summary: "X-Files films"
