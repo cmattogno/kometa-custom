@@ -3,10 +3,12 @@
 collections:
   Millennium:
     builder_level: episode
-    collection_order: release.asc   
+    collection_order: release.asc
+    sync_mode: sync
+    minimum_items: 1
+    
     plex_search:
-      type: season
       all:
-        title: Millennium
+        series_title: Millennium  # ← Match the SHOW name
       any:
-        season: [1, 2, 3]
+        season: [1, 2, 3]          # ← Filter specific seasons
