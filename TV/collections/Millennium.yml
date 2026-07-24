@@ -1,13 +1,12 @@
 # /config/TV/collections/Millennium.yml
 
 collections:
-  Millennium:
+  "Millennium":
     builder_level: episode
-    collection_order: release.asc
+    collection_order: release
     sort_title: "!049_X-Files x Millennium"
     sync_mode: sync
-    minimum_items: 1
-    
     plex_search:
+      type: episode
       all:
-        series_title: Millennium
+        title: "Millennium"
