@@ -110,7 +110,7 @@ collections:
             - "My Struggle III"
             - "Ghouli"
             - "My Struggle IV"
-    sort_title: "!050_!X-Files Mythology"
+    sort_title: "!050_X-Files Mythology"
     summary: "Complete mythology/conspiracy arc from all 11 seasons of The X-Files."
     sync_mode: sync
     
@@ -138,7 +138,7 @@ collections:
             - "Anasazi"
             - "The Blessing Way"
             - "Paper Clip"
-    sort_title: "!046_X-Files Vol 1"
+    sort_title: "!050_!X-Files Vol 1"
     summary: "Volume 1 – Abduction."
 
   "X Files  - Black Oil":
