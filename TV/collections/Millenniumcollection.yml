@@ -4,6 +4,7 @@ collections:
   Millennium:
     builder_level: episode
     collection_order: release.asc
+    sort_title: "!049_X-Files Lone Gunmen"
     sync_mode: sync
     minimum_items: 1
     
