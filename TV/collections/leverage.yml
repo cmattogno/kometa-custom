@@ -9,5 +9,6 @@ collections:
     plex_search:
       type: episode
       any:
-        title: "Leverage"
-        title: "Leverage: Redemption
+        title: 
+          - "Leverage"
+          - "Leverage: Redemption
