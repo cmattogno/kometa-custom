@@ -240,20 +240,20 @@ libraries:
 
     metadata_files:
     - repo: Movies/metadata/movies_mediux.yml
-      schedule: weekly(monday)
+      schedule: monthly(first)
 
     collection_files:
     - repo: Movies/collections/Bond.yml
-      schedule: weekly(monday)
+      schedule: monthly(first)
 
     - repo: Movies/collections/BullettsBombsBabes.yml
-      schedule: weekly(monday)
+      schedule: monthly(first)
 
     - repo: Movies/collections/Tremors.yml
-      schedule: weekly(monday)
+      schedule: monthly(first)
 
     - repo: Movies/collections/heistsandcons.yml
-      schedule: weekly(monday)
+      schedule: monthly(first)
 
     - default: basic
       schedule: weekly(monday)
