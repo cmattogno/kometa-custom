@@ -5,8 +5,8 @@ collections:
     builder_level: episode
     collection_order: release.asc   
     plex_search:
-      type: episode
+      type: season
       all:
         title: Millennium
       any:
-        episode:
+        season: [1, 2, 3]
