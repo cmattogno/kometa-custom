@@ -4,7 +4,7 @@ collections:
   "Millennium":
     builder_level: episode
     collection_order: release
-    sort_title: "!049_X-Files Millennium"
+    sort_title: "!050_X-Files Millennium"
     sync_mode: sync
     plex_search:
       type: episode
