@@ -10,6 +10,4 @@ collections:
     
     plex_search:
       all:
-        series_title: Millennium  # ← Match the SHOW name
-      any:
-        season: [1, 2, 3]          # ← Filter specific seasons
+        series_title: Millennium
