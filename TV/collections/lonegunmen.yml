@@ -1,15 +1,15 @@
 # /config/TV/collections/LoneGunmen.yml
 
 collections:
-  The Lone Gunmen (Complete):
+  "X-Files OG Mytharc":
     builder_level: episode
-    collection_order: release.asc   
+    collection_order: release
     plex_search:
       type: episode
       all:
-        title: The Lone Gunmen
-      any:
-        episode_title:
+        title: "The X Files"
+        any:
+          episode_title:
           - Pilot
           - Bond, Jimmy Bond
           - Eine Kleine Frohike
@@ -23,5 +23,6 @@ collections:
           - The Lying Game
           - All About Yves
           - The Cap'n Toby Show
+    sort_title: "!045_X-Files Lone Gunmen"
+    summary: "The Lone Gunmen, Richard "Ringo" Langly, Melvin Frohike and John Fitzgerald Byers, are recurring characters in The X-Files Universe."
     sync_mode: sync
-    sort_title: "!045_Lone Gunmen"
