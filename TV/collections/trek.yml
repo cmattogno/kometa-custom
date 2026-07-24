@@ -1,0 +1,26 @@
+# /config/TV/collections/trek.yml
+
+collections:
+  "Starfleet - The Episodes":
+    builder_level: episode
+    collection_order: release
+    sort_title: "!060_Starfleet"
+    sync_mode: sync
+    plex_search:
+      type: episode
+      any:
+        title: "Star Trek"
+        title: "Star Trek: Deep Space Nine"
+        title: "Star Trek: Discovery"
+        title: "Star Trek: Enterprise"
+        title: "Star Trek: Lower Decks"
+        title: "Star Trek: Picard"
+        title: "Star Trek: Prodigy"
+        title: "Star Trek: Short Treks"
+        title: "Star Trek: Starfleet Academy"
+        title: "Star Trek: Strange New Worlds"
+        title: "Star Trek: The Animated Series"
+        title: "Star Trek: The Next Generation"
+        title: "Star Trek: Very Short Treks"
+        title: "Star Trek: Voyager"
+        
