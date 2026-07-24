@@ -16,19 +16,6 @@ Want to add collection in-line with default collections?
 sort_title: "!001_Episode title"
         Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
 ```
-custom collection divider
-        # /config/Movies/collections/Separators.yml
-
-collections:
-```
-collections:
-  Custom Collections:
-    type: separator
-    sort_title: "!035_Custom Collections"
-    summary: "My personally curated movie collections"
-```
-Adding a Poster to Your Separator
-
 Kometa automatically looks for poster images in your asset directory. To add a custom poster:
 
     Create a folder in your assets directory matching the separator name:
@@ -47,7 +34,3 @@ Kometa automatically looks for poster images in your asset directory. To add a c
 I have `assets_for_all: true` and `create_asset_folders: true` in my operations, Kometa will automatically create the folder structure if it doesn't exist.
 
 ---
-
-##  Using Kometa's Built-In Separator Posters
-
-Kometa includes pre-made separator posters in its defaults. If you use `default: separator`, you get a nice branded poster automatically:
