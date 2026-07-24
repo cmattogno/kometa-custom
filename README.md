@@ -16,7 +16,7 @@ schedule:
          |----------------------------------|--------------------|
          | Environment variables            |       ✅ Yes       |
          | Volume mount paths               |       ✅ Yes       |
-         | Docker *Compose* changes           |       ✅ Yes       |
+         | Docker *Compose* changes         |       ✅ Yes       |
          | config.yml edits                 |       ❌ No        |
          | API keys / credentials in config |       ❌ No        |
          | Collection files (repo URLs)     |       ❌ No        |
