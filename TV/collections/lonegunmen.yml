@@ -11,18 +11,18 @@ collections:
         any:
           episode_title:
           - Pilot
-          - Bond, Jimmy Bond
+          - "Bond, Jimmy Bond"
           - Eine Kleine Frohike
           - Like Water for Octane
           - Three Men and a Smoking Diaper
-          - Madam, I'm Adam
+          - "Madam, I'm Adam"
           - Planet of the Frohikes
           - Maximum Byers
-          - Diagnosis: Jimmy
+          - "Diagnosis: Jimmy"
           - Tango de los Pistoleros
           - The Lying Game
           - All About Yves
-          - The Cap'n Toby Show
+          - "The Cap'n Toby Show"
     sort_title: "!045_X-Files Lone Gunmen"
     summary: "The Lone Gunmen, Richard "Ringo" Langly, Melvin Frohike and John Fitzgerald Byers, are recurring characters in The X-Files Universe."
     sync_mode: sync
