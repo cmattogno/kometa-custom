@@ -10,8 +10,8 @@
 #                         PLEX
 #-------------------------------------#
 plex:
-  url: https://192-168-42-50.REDACTED.plex.direct:32400
-  token: REDACTED
+  url: [REDACTED]
+  token: [REDACTED]
   timeout: 60
   db_cache: 1024
   clean_bundles: true
@@ -23,7 +23,7 @@ plex:
 #                         TMDB
 #-------------------------------------#
 tmdb:
-  apikey: REDACTED
+  apikey: [REDACTED]
   cache_expiration: 60
   language: en
   region: US
@@ -32,21 +32,21 @@ tmdb:
 #                         MDBList
 #-------------------------------------#
 mdblist:
-  apikey: REDACTED
+  apikey: [REDACTED]
   cache_expiration: 60
 
 #-------------------------------------#
 #                         Tautulli
 #-------------------------------------#
 tautulli:
-  url: https://tautulli.mattogno.com
-  apikey: REDACTED
+  url: [REDACTED]
+  apikey: [REDACTED]
 
 #-------------------------------------#
 #                         GitHub
 #-------------------------------------#
 github:
-  token: REDACTED
+  token: [REDACTED]
 
 #-------------------------------------#
 #                         SETTINGS
@@ -99,11 +99,11 @@ settings:
   playlist_sync_to_users:
   playlist_exclude_users:
 #-------------------------------------#
-#                         Libraries   
+#                         Libraries
 #-------------------------------------#
 libraries:
 #-------------------------------------#
-#                         TV Shows    
+#                         TV Shows
 #-------------------------------------#
   TV Shows:
     template_variables:
@@ -113,7 +113,22 @@ libraries:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
 
     collection_files:
-    
+
+    - repo: TV/collections/MythArcX.yaml
+      schedule: monthly(first)
+
+    - repo: TV/collections/leverage.yml
+      schedule: monthly(first)
+
+    - repo: TV/collections/Millennium.yml
+      schedule: monthly(first)
+
+    - repo: TV/collections/lonegunmen.yml
+      schedule: monthly(first)
+      
+    - repo: TV/collections/trek.yml
+      schedule: weekly(thursday)
+
     - default: basic
       schedule: weekly(monday)
       template_variables:
@@ -165,9 +180,6 @@ libraries:
         visible_library: true
         visible_shared: true
         collection_order: release.asc
-
-    - repo: TV/collections/MythArcX.yaml
-#      schedule: weekly(monday)
 
     overlay_files:
     - default: ribbon
@@ -228,21 +240,21 @@ libraries:
 
     metadata_files:
     - repo: Movies/metadata/movies_mediux.yml
-#      schedule: weekly(monday)
+      schedule: weekly(monday)
 
     collection_files:
     - repo: Movies/collections/Bond.yml
-#      schedule: weekly(monday)
+      schedule: weekly(monday)
 
     - repo: Movies/collections/BullettsBombsBabes.yml
-#      schedule: weekly(monday)
+      schedule: weekly(monday)
 
     - repo: Movies/collections/Tremors.yml
-#      schedule: weekly(monday)
+      schedule: weekly(monday)
 
     - repo: Movies/collections/heistsandcons.yml
-#      schedule: weekly(monday)
-      
+      schedule: weekly(monday)
+
     - default: basic
       schedule: weekly(monday)
       template_variables:
@@ -267,7 +279,7 @@ libraries:
         visible_library: true
         visible_shared: true
         collection_order: release.asc
-        
+
     - default: actor
       schedule: weekly(monday)
       template_variables:
