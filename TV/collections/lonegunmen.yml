@@ -3,7 +3,6 @@
 collections:
   The Lone Gunmen (Complete):
     sync_mode: sync
-    minimum_items: 13
     sort_title: "!045_Gunmen"
     collection_order: release.asc
     builder_level: episode
