@@ -2,14 +2,14 @@
 
 collections:
   The Lone Gunmen (Complete):
-    sync_mode: sync
-    sort_title: "!045_Gunmen"
-    collection_order: release.asc
     builder_level: episode
-    
+    collection_order: release.asc   
     plex_search:
+      type: episode
+      all:
+        title: The Lone Gunmen
       any:
-        title:
+        episode_title:
           - Pilot
           - Bond, Jimmy Bond
           - Eine Kleine Frohike
@@ -23,5 +23,5 @@ collections:
           - The Lying Game
           - All About Yves
           - The Cap'n Toby Show
-        series_title:
-          - The Lone Gunmen
+    sync_mode: sync
+    sort_title: "!045_Lone Gunmen"
