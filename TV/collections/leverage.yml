@@ -1,0 +1,13 @@
+# /config/TV/collections/leverage.yml
+
+collections:
+  "They provide ... Leverage":
+    builder_level: episode
+    collection_order: release
+    sort_title: "!060_Leverage"
+    sync_mode: sync
+    plex_search:
+      type: episode
+      any:
+        title: "Leverage"
+        title: "Leverage: Redemption
