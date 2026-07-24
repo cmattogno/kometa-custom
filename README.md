@@ -14,12 +14,12 @@ schedule:
 ```       
          |  Change                          |  Requires Restart? |
          |----------------------------------|--------------------|
-         | Environment variables            |       ✅ Yes       |
-         | Volume mount paths               |       ✅ Yes       |
-         | Docker *Compose* changes         |       ✅ Yes       |
-         | config.yml edits                 |       ❌ No        |
-         | API keys / credentials in config |       ❌ No        |
-         | Collection files (repo URLs)     |       ❌ No        |
+         | Environment variables            |       ✅ Yes      |
+         | Volume mount paths               |       ✅ Yes      |
+         | Docker *Compose* changes         |       ✅ Yes      |
+         | config.yml edits                 |       ❌ No       |
+         | API keys / credentials in config |       ❌ No       |
+         | Collection files (repo URLs)     |       ❌ No       |
 ```
 Want to add collection in-line with default collections?
 ```
