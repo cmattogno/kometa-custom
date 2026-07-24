@@ -4,7 +4,7 @@ collections:
   "They provide ... Leverage":
     builder_level: episode
     collection_order: release
-    sort_title: "!060_Leverage"
+    sort_title: "!050_Leverage"
     sync_mode: sync
     plex_search:
       type: episode
