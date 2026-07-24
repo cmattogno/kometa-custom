@@ -2,13 +2,11 @@
 
 collections:
   Millennium:
-    sync_mode: sync
-    minimum_items: 1
-    sort_title: "!046_Millennium"
-    collection_order: release.asc
     builder_level: episode
-    
+    collection_order: release.asc   
     plex_search:
+      type: episode
+      all:
+        title: Millennium
       any:
-        series_title:
-          - Millennium
+        episode:
