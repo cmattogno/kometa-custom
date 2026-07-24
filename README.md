@@ -11,6 +11,16 @@ schedule:
           date(MM/DD/YYYY)
           all[weekly(sunday), hourly(17)] - mix and match
 ```
+       
+          | Change | Requires Restart? |
+          |--------|--------------------|
+          | Environment variables | ✅ Yes |
+          Volume mount paths	✅ Yes
+          Docker Compose changes	✅ Yes
+          config.yml edits	❌ No
+          API keys / credentials in config	❌ No
+          Collection files (repo URLs)	❌ No
+
 Want to add collection in-line with default collections?
 ```
 sort_title: "!001_Episode title"
