@@ -10,7 +10,7 @@ collections:
   "They provide ... Leverage":
     builder_level: episode
     collection_order: release
-    sort_title: "!050_Leverage"
+    sort_title: "!050_Leverage0"
     sync_mode: sync
     plex_search:
       type: episode
@@ -18,3 +18,62 @@ collections:
         title: 
           - "Leverage"
           - "Leverage: Redemption"
+
+    
+  "Leverage - Jack Hurley":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "Leverage"
+        any:
+          episode_title:
+            - "The 12-Step Job
+            - "The Girls' Night Out Job"
+            - "The Boys' Night Out Job"
+            - "The Golf Job"
+            - "The Cooling Off the Mark Job"
+    sort_title: "!050_Leverage1"
+    summary: "Tell me something, Tom. Lying, cheating, stealing - if you're doing it to help someone, doesn't that make it okay?"
+
+  "Leverage - James Sterling":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "Leverage"
+        any:
+          episode_title:
+            - "The Two-Horse Job"
+            - "The 12-Step Job"
+            - "The First David Job"
+            - "The Zanzibar Marketplace Job"
+            - "The Crowning Achievement Job"
+            - "The Three Strikes Job"
+            - "The Maltese Falcon Job"
+            - "The Frame-Up Job"
+            - "The Long Goodbye Job"
+    sort_title: "!050_Leverage2"
+    summary: "That's the funny thing about conmen, they don't bluff.”
+
+  "Leverage - Tara Cole":
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      type: episode
+      all:
+        title: "Leverage"
+        any:
+          episode_title:
+            - "The Lost Heir Job"
+            - "The Runway Job"
+            - "The Bottle Job"
+            - "The Zanzibar Marketplace Job"
+            - "The Future Job"
+            - "The Three Strikes Job"
+            - "The Maltese Falcon Job"
+            - "The Grand Complication Job"
+    sort_title: "!050_Leverage3"
+    summary: "And for what it's worth, Sofie was right. You guys are the best I've ever seen."
