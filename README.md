@@ -1,7 +1,8 @@
 Tips
 
 Don't want to run every collection/metadata/playlist/etc every day?
-```
+
+
 schedule:
           hourly(hr) - can be 12 or 24, also range 01-13 for start/stop
           daily - once a day
@@ -19,11 +20,10 @@ schedule:
          | config.yml edits                 |       ❌ No       |
          | API keys / credentials in config |       ❌ No       |
          | Collection files (repo URLs)     |       ❌ No       |
-```
 Want to add collection in-line with default collections?
-```
+
           sort_title: "!001_Episode title"
-```
+
           Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
 
 Kometa automatically looks for poster images in your asset directory. To add a custom poster:
