@@ -1,3 +1,14 @@
+# Bullets, Bombs, and Babes by Andy Sidaris
+# Author: cmattogno
+# Source: A series of films focusing on a group of gorgeous secret agents working for The Agency, who get in a series of adventures –
+# mostly based in and around Hawaii, where the temperate climate called for minimal clothing.
+# Method: plex_search (no external API dependency)
+# Last Updated: 2026
+
+# plex_search is "simple", for example the movie "Guns". # I couldn't figure out a method to block movies that start with "Guns" 
+# so I removed it here and manually enter the tag "Bulletts, Bombs, and Babes" in Plex.  
+# Guns (2016) (1990) (1985), Guns of the Magnificent Seven (1969), Guns of the Law (1970), Guns of the Patriots (2013), Guns for San Sebastian (1968) ...
+
 collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
@@ -12,7 +23,7 @@ collections:
           - Hard Ticket to Hawaii
           - Picasso Trigger
           - Savage Beach
-          - Guns
+#          - Guns
           - Do or Die
           - Hard Hunted
           - Fit to Kill
