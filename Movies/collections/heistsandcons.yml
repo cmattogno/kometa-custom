@@ -1,5 +1,5 @@
 collections:
-  Heists and Cons:
+  Heists and Cons Collection:
     sync_mode: sync
     minimum_items: 9
     sort_title: "!042_Heists"
