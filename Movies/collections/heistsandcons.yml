@@ -1,56 +1,91 @@
 collections:
   Heists and Cons:
     sync_mode: sync
-    minimum_items: 15
+    minimum_items: 9
     sort_title: "!042_Heists"
     collection_order: release.asc
     
     plex_search:
       any:
         title:
-          # Classic Heists
-          - Heat
-          - Ocean's Eleven
-          - Ocean's Twelve
-          - Ocean's Thirteen
-          - The Italian Job
-          - The Usual Suspects
-          - Inside Man
-          - Reservoir Dogs
-          
-          # Mission: Impossible Franchise
-          - Mission: Impossible
-          - Mission: Impossible II
-          - Mission: Impossible III
-          - Mission: Impossible - Ghost Protocol
-          - Mission: Impossible - Rogue Nation
-          - Mission: Impossible - Fallout
-          - Mission: Impossible - Dead Reckoning Part One
-          - Mission: Impossible - The Final Reckoning
-          
-          # Fast & Furious (Con/Heist focused)
-          - The Fast and the Furious
-          - 2 Fast 2 Furious
-          - The Fast and the Furious: Tokyo Drift
-          - Fast & Furious
-          - Fast Five
-          - Fast & Furious 6
-          - Furious 7
-          - The Fate of the Furious
-          
-          # Modern Heist Films
-          - The Score
-          - The Town
-          - Den of Thieves
-          - Inception
-          - Logan Lucky
-          - Hell or High Water
-          - Ronin
-          - Baby Driver
-          - Triple Frontier
-          
-          # Comedies & Wild Cards
-          - Bottle Rocket
-          - Snatch
-          - Lock, Stock and Two Smoking Barrels
-          - The Bank Job
+# Tier 1 — Must-Haves
+- Heat
+- Inside Man
+- Catch Me If You Can
+- Inception
+- Reservoir Dogs
+- The Town
+- Baby Driver
+
+# Tier 2 — Strong Recommendations
+- American Hustle
+- Out of Sight
+- Dirty Rotten Scoundrels
+- Matchstick Men
+- The Grifters
+- Bound
+- The Score
+- Heist
+
+# Tier 3 — Deep Cuts & International
+- Rififi
+- Bob le Flambeur
+- The Killing
+- The Asphalt Jungle
+- The Hot Rock
+- The Taking of Pelham One Two Three
+- Dog Day Afternoon
+- Thief
+- Widows
+- Den of Thieves
+- The Bank Job
+- Going in Style
+- Triple Frontier
+- The Italian Job (2003)
+- The Italian Job (1969)
+- The Thomas Crown Affair
+
+# Bonus — Hidden Heist Gems Already in Your Library
+- Ant-Man
+- WarGames
+- National Treasure
+- Dungeons & Dragons: Honor Among Thieves
+- The Fall Guy
+- Confess, Fletch
+- The House
+- MouseHunt
+- Fountain of Youth
+- The Ministry of Ungentlemanly Warfare
+
+# Movies I should add
+- Heat
+- Inside Man
+- Catch Me If You Can
+- Inception
+- Reservoir Dogs
+- The Town
+- Baby Driver
+- American Hustle
+- Out of Sight
+- Dirty Rotten Scoundrels
+- Matchstick Men
+- The Grifters
+- Bound
+- The Score
+- Heist (2001 Mamet)
+- Rififi
+- Bob le Flambeur
+- The Killing
+- The Asphalt Jungle
+- The Hot Rock
+- The Taking of Pelham One Two Three
+- Dog Day Afternoon
+- Thief
+- Widows
+- Den of Thieves
+- The Bank Job
+- Going in Style
+- Triple Frontier
+- The Italian Job (2003)
+- The Italian Job (1969)
+- The Thomas Crown Affair (1999)
