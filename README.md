@@ -25,7 +25,7 @@
 ## When to restart after edits
 
          |  Change                          |  Requires Restart? |
-         |----------------------------------|--------------------|
+         | -------------------------------- | ------------------ |
          | Environment variables            |       ✅ Yes      |
          | Volume mount paths               |       ✅ Yes      |
          | Docker *Compose* changes         |       ✅ Yes      |
