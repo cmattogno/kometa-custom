@@ -12,7 +12,7 @@ collections:
           - Hard Ticket to Hawaii
           - Picasso Trigger
           - Savage Beach
-          - Guns
+          - Guns [tmdb-46360]
           - Do or Die
           - Hard Hunted
           - Fit to Kill
@@ -20,7 +20,3 @@ collections:
           - The Dallas Connection
           - Day of the Warrior
           - L.E.T.H.A.L. Ladies: Return to Savage Beach
-        
-        not:
-          title:
-            - "Guns Up!"
