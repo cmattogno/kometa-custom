@@ -111,23 +111,27 @@ libraries:
 
     metadata_files:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
+      schedule: monthly(1)
 
     collection_files:
 
     - repo: TV/collections/MythArcX.yaml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     - repo: TV/collections/leverage.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     - repo: TV/collections/Millennium.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     - repo: TV/collections/lonegunmen.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
       
     - repo: TV/collections/trek.yml
-      schedule: weekly(thursday)
+      schedule: monthly(1)
+
+    - repo: TV/collections/gate.yml
+      schedule: monthly(1)
 
     - default: basic
       schedule: weekly(monday)
@@ -167,6 +171,7 @@ libraries:
         exclude:
         - Ryan Reynolds
         - Jack Black
+        - Dwayne Johnson
         visible_library: true
         visible_shared: true
         sort_by: title.asc
@@ -240,20 +245,20 @@ libraries:
 
     metadata_files:
     - repo: Movies/metadata/movies_mediux.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     collection_files:
     - repo: Movies/collections/Bond.yml
-      schedule: monthly(first)
-
+      schedule: monthly(1)
+      
     - repo: Movies/collections/BullettsBombsBabes.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     - repo: Movies/collections/Tremors.yml
-      schedule: monthly(first)
+      schedule: monthly(1)
 
     - repo: Movies/collections/heistsandcons.yml
-      schedule: monthly(first)
+      schedule: daily
 
     - default: basic
       schedule: weekly(monday)
@@ -287,6 +292,7 @@ libraries:
         exclude:
         - Ryan Reynolds
         - Jack Black
+        - Dwayne Johnson
         visible_library: true
         visible_shared: true
         sort_by: title.asc
