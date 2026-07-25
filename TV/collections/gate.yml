@@ -1,0 +1,16 @@
+# /config/TV/collections/gate.yml
+
+collections:
+  "Starfleet - The Episodes":
+    builder_level: episode
+    collection_order: release
+    sort_title: "!050_SGC
+    sync_mode: sync
+    plex_search:
+      type: episode
+      any:
+        title: 
+          - "Stargate SG-1"
+          - "Stargate Atlantis"
+          - "Stargate Universe"
+          - "Stargate Origins"
