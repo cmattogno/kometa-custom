@@ -4,7 +4,7 @@ collections:
   "Stargate - The Episodes":
     builder_level: episode
     collection_order: release
-    sort_title: "!050_SGC
+    sort_title: "!050_SGC"
     sync_mode: sync
     plex_search:
       type: episode
