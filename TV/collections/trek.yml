@@ -1,4 +1,8 @@
 # /config/TV/collections/trek.yml
+# An archive off all things Star Trek
+# Author: cmattogno
+# Method: plex_search (no Trakt, no external API dependency)
+# Last Updated: 2026
 
 collections:
   "Starfleet - The Episodes":
