@@ -23,6 +23,7 @@
           - all[weekly(sunday), hourly(17)] - mix and match
 ```
 ## When to restart after edits
+
          |  Change                          |  Requires Restart? |
          |----------------------------------|--------------------|
          | Environment variables            |       ✅ Yes      |
