@@ -1,4 +1,8 @@
 # /config/TV/collections/Millennium.yml
+# First Spin off from The X Files, not part of the Mytharc
+# Author: cmattogno
+# Method: plex_search (no Trakt, no external API dependency)
+# Last Updated: 2026
 
 collections:
   "Millennium":
