@@ -19,7 +19,6 @@ collections:
           - "Leverage"
           - "Leverage: Redemption"
 
-    
   "Leverage - Jack Hurley":
     builder_level: episode
     collection_order: release
@@ -56,8 +55,8 @@ collections:
             - "The Frame-Up Job"
             - "The Long Goodbye Job"
     sort_title: "!050_Leverage2"
-    summary: "That's the funny thing about conmen, they don't bluff.”
-"
+    summary: "That's the funny thing about conmen, they don't bluff."
+
   "Leverage - Tara Cole":
     builder_level: episode
     collection_order: release
