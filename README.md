@@ -46,12 +46,12 @@ I have `assets_for_all: true` and `create_asset_folders: true` in my operations,
 
    ```    
    /Kometa_assets/Movies/
-   └── Custom Collections/
+   └── $_CustomCollectionName/
        └── poster.png
    ```
 
 or just name the file directly:
    ```
    /Kometa_assets/Movies/
-   └── Custom Collections.jpg
+   └── $_CustomCollectionName.jpg
    ```
