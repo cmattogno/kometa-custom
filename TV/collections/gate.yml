@@ -1,4 +1,4 @@
-# /config/TV/collections/gate.yml
+# TV/collections/gate.yml
 # Stargate all the movies and shows (Provided you put the movies in Specials or Season 00)
 # Author: cmattogno
 # Method: plex_search (no Trakt, no external API dependency)
