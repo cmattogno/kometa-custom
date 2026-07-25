@@ -29,12 +29,12 @@ Kometa creates Collections, sometimes I want to add Heists in-line with the defa
 
 Kometa automatically looks for poster images in your asset directory. To add a custom poster:
 
-    Create a folder in your assets directory matching the separator name:
-```
+    
+
    /Kometa_assets/Movies/
    └── Custom Collections/
        └── poster.png
-   ```
+
 
 2. Or name the file directly:
    ```
