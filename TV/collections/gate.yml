@@ -1,7 +1,7 @@
 # /config/TV/collections/gate.yml
 
 collections:
-  "Starfleet - The Episodes":
+  "Stargate - The Episodes":
     builder_level: episode
     collection_order: release
     sort_title: "!050_SGC
