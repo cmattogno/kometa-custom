@@ -1,18 +1,18 @@
-Tips
+# Tips
 
-# Collections only on TV Shows
+## Collections only on TV Shows
 docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows"
 
-# Collections only on ALL libraries
+## Collections only on ALL libraries
 docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only
 
-# Dry run first (preview without changes)
+## Dry run first (preview without changes)
 docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows" --dry-run
 
-# Overlays only instead
+## Overlays only instead
 docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --overlays-only --library "TV Shows"
 
-# schedule:
+## schedule:
 ```
           - hourly(hr) - can be 12 or 24, also range 01-13 for start/stop
           - daily - once a day
@@ -22,7 +22,7 @@ docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --ru
           - date(MM/DD/YYYY)
           - all[weekly(sunday), hourly(17)] - mix and match
 ```
-# When to restart after edits
+## When to restart after edits
          |  Change                          |  Requires Restart? |
          |----------------------------------|--------------------|
          | Environment variables            |       ✅ Yes      |
@@ -32,20 +32,20 @@ docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --ru
          | API keys / credentials in config |       ❌ No       |
          | Collection files (repo URLs)     |       ❌ No       |
 
-Want to add collection in-line with default collections?
+## Want to add collection in-line with default collections?
 
           sort_title: "!001_Episode title"
 
-Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
+*Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.*
 
-# To add a custom poster:
+## To add a custom poster:
    ```    
    /Kometa_assets/Movies/
    └── Custom Collections/
        └── poster.png
    ```
 
-# or name the file directly:
+## or name the file directly:
    ```
    /Kometa_assets/Movies/
    └── Custom Collections.jpg
