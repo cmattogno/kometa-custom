@@ -1,4 +1,8 @@
 # /config/TV/collections/gate.yml
+# Stargate all the movies and shows (Provided you put the movies in Specials or Season 00)
+# Author: cmattogno
+# Method: plex_search (no Trakt, no external API dependency)
+# Last Updated: 2026
 
 collections:
   "Stargate Command - The Episodes":
