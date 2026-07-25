@@ -1,3 +1,10 @@
+# Tremors
+# Author: cmattogno
+# Source: 7 Movies and a Series (2003 Series not included in this collection)
+# Method: plex_search (no external API dependency)
+# Last Updated: 2026
+
+
 collections:
   Tremors Collection:
     sync_mode: sync
