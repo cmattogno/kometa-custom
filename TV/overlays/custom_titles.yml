@@ -1,3 +1,6 @@
+# I keeo trying to see if I can autogenerate title_cards using Overlays. 
+# so far not much luck
+
 overlays:
   episode_name_overlay:
     plex_search:
