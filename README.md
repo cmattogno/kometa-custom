@@ -38,19 +38,17 @@ Want to add collection in-line with default collections?
 
 Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
 
-Kometa automatically looks for poster images in the kometa_assets directory. To add a custom poster:
+# To add a custom poster:
    ```    
    /Kometa_assets/Movies/
    └── Custom Collections/
        └── poster.png
    ```
 
-or name the file directly:
+# or name the file directly:
    ```
    /Kometa_assets/Movies/
    └── Custom Collections.jpg
    ```
 
 I have `assets_for_all: true` and `create_asset_folders: true` in my operations, Kometa will automatically create the folder structure if it doesn't exist.
-
----
