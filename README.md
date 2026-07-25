@@ -40,6 +40,7 @@
 `sort_title: "!001_Episode title"`
 
 *Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.*
+
 I have `assets_for_all: true` and `create_asset_folders: true` in my operations, Kometa will automatically create the folder structure if it doesn't exist.
 
 ## To add a custom poster:
