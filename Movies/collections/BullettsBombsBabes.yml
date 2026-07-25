@@ -1,5 +1,3 @@
-# /config/Movies/collections/BulletsBombsBabes.yml
-
 collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
@@ -22,3 +20,7 @@ collections:
           - The Dallas Connection
           - Day of the Warrior
           - L.E.T.H.A.L. Ladies: Return to Savage Beach
+        
+        not:
+          title:
+            - "Guns Up!"
