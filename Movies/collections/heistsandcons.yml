@@ -1,3 +1,9 @@
+# Heists and Cons
+# Author: cmattogno
+# Source: From a few lists of the best Heist and Con films
+# Method: plex_search (no external API dependency)
+# Last Updated: 2026
+
 collections:
   Heists and Cons Collection:
     sync_mode: sync
