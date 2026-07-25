@@ -34,7 +34,7 @@ Kometa automatically looks for poster images in the kometa_assets directory. To 
        └── poster.png
    ```
 
-2. Or name the file directly:
+or name the file directly:
    ```
    /Kometa_assets/Movies/
    └── Custom Collections.jpg
