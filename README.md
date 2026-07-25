@@ -12,8 +12,8 @@ docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --ru
 # Overlays only instead
 docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --overlays-only --library "TV Shows"
 
+# schedule:
 ```
-schedule:
           - hourly(hr) - can be 12 or 24, also range 01-13 for start/stop
           - daily - once a day
           - weekly(weekday|weekday) 
@@ -22,6 +22,7 @@ schedule:
           - date(MM/DD/YYYY)
           - all[weekly(sunday), hourly(17)] - mix and match
 ```
+# When to restart after edits
          |  Change                          |  Requires Restart? |
          |----------------------------------|--------------------|
          | Environment variables            |       ✅ Yes      |
