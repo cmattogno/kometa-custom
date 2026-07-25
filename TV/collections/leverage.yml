@@ -1,4 +1,10 @@
 # /config/TV/collections/leverage.yml
+# The rich and powerful, they take what they want. They steal it back for you. And sometimes, bad guys make the best good guys.
+# They provide... Leverage.
+#       They also provide ":Redemption"
+# Author: cmattogno
+# Method: plex_search (no Trakt, no external API dependency)
+# Last Updated: 2026
 
 collections:
   "They provide ... Leverage":
