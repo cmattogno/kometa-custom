@@ -50,7 +50,7 @@ I have `assets_for_all: true` and `create_asset_folders: true` in my operations,
        └── poster.png
    ```
 
-## or name the file directly:
+### or name the file directly:
    ```
    /Kometa_assets/Movies/
    └── Custom Collections.jpg
