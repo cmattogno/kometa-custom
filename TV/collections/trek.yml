@@ -14,18 +14,17 @@ collections:
       type: episode
       any:
         title: 
-          - "Star Trek"
-          - "Star Trek: Deep Space Nine"
-          - "Star Trek: Discovery"
-          - "Star Trek: Enterprise"
-          - "Star Trek: Lower Decks"
-          - "Star Trek: Picard"
-          - "Star Trek: Prodigy"
-          - "Star Trek: Short Treks"
-          - "Star Trek: Starfleet Academy"
-          - "Star Trek: Strange New Worlds"
+          - "Star Trek" # I wonder if, the way plex_search works, I even needed to add the rest of the shows
           - "Star Trek: The Animated Series"
           - "Star Trek: The Next Generation"
-          - "Star Trek: Very Short Treks"
+          - "Star Trek: Deep Space Nine"
           - "Star Trek: Voyager"
-        
+          - "Star Trek: Enterprise"
+          - "Star Trek: Discovery"
+          - "Star Trek: Short Treks"
+          - "Star Trek: Picard"
+          - "Star Trek: Lower Decks"
+          - "Star Trek: Prodigy"
+          - "Star Trek: Very Short Treks"
+          - "Star Trek: Strange New Worlds"
+          - "Star Trek: Starfleet Academy"
