@@ -23,9 +23,10 @@ schedule:
 ```
 Want to add collection in-line with default collections?
 ```
-sort_title: "!001_Episode title"
-        Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
+          sort_title: "!001_Episode title"
 ```
+          Kometa creates Collections, sometimes I want to add Heists in-line with the defaults. you can find current "sort titles" by Editing the collection, its there.
+
 Kometa automatically looks for poster images in your asset directory. To add a custom poster:
 
     Create a folder in your assets directory matching the separator name:
