@@ -1,22 +1,126 @@
 collections:
   Heists and Cons Collection:
     sync_mode: sync
-    minimum_items: 9
-    sort_title: "!042_Heists"
+    sort_title: "!060_Heists"
     collection_order: release.asc
     
     plex_search:
       any:
         title:
-         # Tier 1 — Must-Haves
+         # Major Heist Films
+          - Ocean's Eleven
+          - Ocean's Twelve
+          - Ocean's Thirteen
+          - Ocean's Eight
+          - Logan Lucky
+          - Tower Heist
+          - Now You See Me
+          - "Now You See Me: Now You Don't"
+          - The Sting
+          - Sneakers
+          - Hackers
+          - Snatch
+          - Lock, Stock and Two Smoking Barrels
+          - RocknRolla
+          - Tenet
+          - The Brothers Bloom
+          - The Art of the Steal
+          - Army of Thieves
+          - Lift
+          - The Instigators
+          - Hudson Hawk
+          - "Stolen: Heist of the Century"
+          - "Dungeons & Dragons: Honor Among Thieves"
+          - Crime 101
+          - How to Rob a Bank
+          - Play Dirty
+          - The Rip
+          - The Pickup
+          - I Love Boosters
+          - Send Help
+         # Con Artist / Grifter Films
+          - Hit Man
+          - Blow
+          - The Usual Suspects
+          - Fargo
+          - Miller's Crossing
+          - Burn After Reading
+          - Grosse Pointe Blank
+          - Kiss Kiss Bang Bang
+          - The Lookout
+          - Masterminds
+          - Trading Places
+          - MouseHunt
+          - Revolver
+          - Role Play
+         # Franchise Heist/Spy (Con-Adjacent)
+          - "Mission: Impossible"
+          - "Mission: Impossible 2"
+          - "Mission: Impossible III"
+          - "Mission: Impossible - Ghost Protocol"
+          - "Mission: Impossible - Rogue Nation"
+          - "Mission: Impossible - Fallout"
+          - "Mission: Impossible - Dead Reckoning Part One"
+          - "Mission: Impossible - The Final Reckoning"
+          - Dr. No
+          - From Russia with Love
+          - Goldfinger
+          - Thunderball
+          - You Only Live Twice
+          - "On Her Majesty's Secret Service"
+          - Diamonds Are Forever
+          - Live and Let Die
+          - The Man with the Golden Gun
+          - The Spy Who Loved Me
+          - Moonraker
+          - For Your Eyes Only
+          - Octopussy
+          - A View to a Kill
+          - The Living Daylights
+          - Licence to Kill
+          - GoldenEye
+          - Tomorrow Never Dies
+          - The World Is Not Enough
+          - Die Another Day
+          - Casino Royale
+          - Quantum of Solace
+          - Skyfall
+          - Spectre
+          - No Time to Die
+          - Never Say Never Again
+          - Kingsman: The Secret Service
+          - Kingsman: The Golden Circle
+          - The King's Man
+          - National Treasure
+          - "National Treasure: Book of Secrets"
+          - The Man from U.N.C.L.E.
+          - The Ministry of Ungentlemanly Warfare
+          - Red Notice
+          - Once A Thief
+          - Nobody
+          - The Fall Guy
+          - True Lies
+          - WarGames
+          - Enola Holmes 2
+          - Fountain of Youth
+         # Mystery/Caper-Adjacent
+          - Knives Out
+          - "Glass Onion: A Knives Out Mystery"
+          - Clue
+          - Murder Mystery
+          - Murder Mystery 2
+          - Veronica Mars
+          - Odd Thomas
+          - Ready or Not
+         # Recommended Additions — Tier 1 Must-Haves
+          - Heat
           - Inside Man
           - Catch Me If You Can
           - Inception
           - Reservoir Dogs
           - The Town
           - Baby Driver
-
-         # Tier 2 — Strong Recommendations
+         # Recommended Additions — Tier 2 Strong Recs
           - American Hustle
           - Out of Sight
           - Dirty Rotten Scoundrels
@@ -25,8 +129,7 @@ collections:
           - Bound
           - The Score
           - Heist
-
-         # Tier 3 — Deep Cuts & International
+         # Recommended Additions — Tier 3 Deep Cuts & International
           - Rififi
           - Bob le Flambeur
           - The Killing
@@ -40,51 +143,9 @@ collections:
           - The Bank Job
           - Going in Style
           - Triple Frontier
-          - The Italian Job (2003)
-          - The Italian Job (1969)
+          - The Italian Job
           - The Thomas Crown Affair
-
-         # Bonus — Hidden Heist Gems Already in Your Library
+         # Hidden Heist Gems (Already Owned, Not Listed Above)
           - Ant-Man
-          - WarGames
-          - National Treasure
-          - "Dungeons & Dragons: Honor Among Thieves"
-          - The Fall Guy
           - Confess, Fletch
           - The House
-          - MouseHunt
-          - Fountain of Youth
-          - The Ministry of Ungentlemanly Warfare
-
-         # Movies I should add
-          - Heat [tmdb-949]
-          - Inside Man
-          - Catch Me If You Can
-          - Inception
-          - Reservoir Dogs
-          - The Town
-          - Baby Driver
-          - American Hustle
-          - Out of Sight
-          - Dirty Rotten Scoundrels
-          - Matchstick Men
-          - The Grifters
-          - Bound
-          - The Score
-          - Heist (2001 Mamet)
-          - Rififi
-          - Bob le Flambeur
-          - The Killing
-          - The Asphalt Jungle
-          - The Hot Rock
-          - The Taking of Pelham One Two Three
-          - Dog Day Afternoon
-          - Thief
-          - Widows
-          - Den of Thieves
-          - The Bank Job
-          - Going in Style
-          - Triple Frontier
-          - The Italian Job (2003)
-          - The Italian Job (1969)
-          - The Thomas Crown Affair (1999)
