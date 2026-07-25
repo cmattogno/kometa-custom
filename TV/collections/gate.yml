@@ -9,7 +9,7 @@ collections:
     plex_search:
       type: episode
       any:
-        title: 
+        title:
           - "Stargate SG-1"
           - "Stargate Atlantis"
           - "Stargate Universe"
