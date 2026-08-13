@@ -1,4 +1,6 @@
 # /config/Movies/collections/CollectionName.yml
+# TEMPLATE
+# Not for use in PRODUCTION environment
 
 collections:
   Collection Name Goes Here:
