@@ -1,13 +1,23 @@
 # How to Get Mediux AURA to work with kometa (and a bash script)
 ### *looking at you overlays*
 
+## The problem:
+
+I want a nice looking experience and love Mediux for better poster and for episodic title cards (*-thumb.jpg).
+Aura wants to talk directly with plex to assign it's images in real time. Because of this, aura provides the folder/file structure that Plex expects.
+Kometa doesn't follow that structure and once we break the communication between Plex and Aura we need a script to rename and flatten the structure so Kometa can be in charge. 
+
+plex wants the folder structure to be similar to:  //TV/Arrested Development (2003) {tvdb-72173}/*Season 01/Arrested Development (2003) - S01E01 - Pilot [Bluray-1080p][AC3 2.0][x264].jpg*
+Kometa wants the assets folder like: //Kometa_assets/TV/Arrested Development (2003) {tvdb-72173}/*S01E01.jpg*
+
+So my workflow is:
+```
+00:00 - AURA → auto updates downloads to /Kometa_assets (with NO Plex communication)
+02:00 - Move script → shifts episode files to show root - for ingest by Kometa
+03:30 - Kometa → finds assets, composites overlays, pushes to Plex # I run only Overlays every day to keep up with new episodes, collections, playlists are weekly or monthly. 
+```
+
 ## These setting work for me, it took a while to get this whole shebang working and your mileage may vary
-
-This assumes you have Kometa & aura running in docker (I run Plex on the host) on a linux host
-
-My aura.yaml [REDACTED] config is avail here in GitHub
-
-The secret is to get aura to download all the files into your Kometa "assets" folder structure.
 
 ## Kometa
 
@@ -57,8 +67,9 @@ settings:
       assets_for_all_collections: true
 ```
 ## aura - mediux
-These are snippets from my aura/config/config.yaml. The config is pretty easy to translate to the web interface. 
+You need to disable aura and plex communicating or you can watch the posters/thumbs change from the Kometa overlay back to the clean mediux image that is/will be in your assets directoy so kometa can do it's thing without plex and aura mucking things up.
 
+*These are snippets from my aura/config/config.yaml. The config is pretty easy to translate to the web interface. *
 ```
 MediaServer:
     Type: Plex
