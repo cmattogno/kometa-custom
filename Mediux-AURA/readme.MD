@@ -7,9 +7,11 @@ I want a nice looking experience and love Mediux for better poster and for episo
 Aura wants to talk directly with plex to assign it's images in real time. Because of this, aura provides the folder/file structure that Plex expects.
 Kometa doesn't follow that structure and once we break the communication between Plex and Aura we need a script to rename and flatten the structure so Kometa can be in charge. 
 
-plex wants the folder structure to be similar to: `//TV/Arrested Development (2003) {tvdb-72173}/*Season 01/Arrested Development (2003) - S01E01 - Pilot [Bluray-1080p][AC3 2.0][x264].jpg*`
+plex wants the folder structure to be similar to: 
+      `//TV/Arrested Development (2003) {tvdb-72173}/*Season 01/Arrested Development (2003) - S01E01 - Pilot [Bluray-1080p][AC3 2.0][x264].jpg*`
 
-Kometa wants the assets folder like: `//Kometa_assets/TV/Arrested Development (2003) {tvdb-72173}/*S01E01.jpg*`
+Kometa wants the assets folder like: 
+      `//Kometa_assets/TV/Arrested Development (2003) {tvdb-72173}/*S01E01.jpg*`
 
 So my workflow is:
 ```
