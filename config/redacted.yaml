@@ -3,14 +3,15 @@
 #######################################
 #  KOMETA CONFIGURATION               #
 #  TV Shows + Movies                  #
-#  Created: 2026-07-25                #
+#  Created: 2026-07-22                #
+#  Updated: 2026-08-13                #
 #######################################
 
 #-------------------------------------#
 #                         PLEX
 #-------------------------------------#
 plex:
-  url: [REDACTED]
+  url: https://[REDACTED].plex.direct:32400
   token: [REDACTED]
   timeout: 60
   db_cache: 1024
@@ -18,7 +19,6 @@ plex:
   empty_trash: true
   optimize: true
   verify_ssl: true
-
 #-------------------------------------#
 #                         TMDB
 #-------------------------------------#
@@ -27,27 +27,23 @@ tmdb:
   cache_expiration: 60
   language: en
   region: US
-
 #-------------------------------------#
 #                         MDBList
 #-------------------------------------#
 mdblist:
   apikey: [REDACTED]
   cache_expiration: 60
-
 #-------------------------------------#
 #                         Tautulli
 #-------------------------------------#
 tautulli:
-  url: [REDACTED]
+  url: http://tautulli:8181
   apikey: [REDACTED]
-
 #-------------------------------------#
 #                         GitHub
 #-------------------------------------#
 github:
-  token: [REDACTED]
-
+  token: github_pat_[REDACTED]
 #-------------------------------------#
 #                         SETTINGS
 #-------------------------------------#
@@ -82,8 +78,8 @@ settings:
   show_filtered: true
   show_missing: false
   show_missing_assets: true
-  show_missing_episode_assets: false
-  show_missing_season_assets: false
+  show_missing_episode_assets: true
+  show_missing_season_assets: true
   show_options: true
   show_unconfigured: true
   show_unfiltered: true
@@ -108,11 +104,15 @@ libraries:
   TV Shows:
     template_variables:
       language: en
-
+#-------------------------------------#
+#                      TV metadata
+#-------------------------------------#
     metadata_files:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
       schedule: monthly(1)
-
+#-------------------------------------#
+#                     TV collections
+#-------------------------------------#
     collection_files:
 
     - repo: TV/collections/MythArcX.yaml
@@ -128,9 +128,12 @@ libraries:
       schedule: monthly(1)
       
     - repo: TV/collections/trek.yml
-      schedule: monthly(1)
+      schedule: weekly(thursday)
 
     - repo: TV/collections/gate.yml
+      schedule: monthly(1)
+  
+    - repo: TV/collections/leverage.yml
       schedule: monthly(1)
 
     - default: basic
@@ -179,18 +182,21 @@ libraries:
           limit: 35
 
     - default: tautulli
-      schedule: weekly(monday)
+      schedule: weekly(monday|thursday)
       template_variables:
         use_watched: false
         visible_library: true
         visible_shared: true
         collection_order: release.asc
-
+#-------------------------------------#
+#                      TV  overlays
+#-------------------------------------#
+#    reset_overlays: tmdb #when things go pear shaped
     overlay_files:
     - default: ribbon
 
     - default: status
-      schedule_overlays: weekly(sunday|wednesday)
+      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         back_color_airing: '#016920FF'
         back_color_returning: '#81007FFF'
@@ -198,7 +204,7 @@ libraries:
         back_color_ended: '#000847FF'
 
     - default: ratings
-      schedule_overlays: weekly(sunday|wednesday)
+      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         rating1: user
         rating1_image: rt_tomato
@@ -207,19 +213,37 @@ libraries:
         vertical_position: center
 
     - default: commonsense
+      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         horizontal_offset: 0
         vertical_offset: 150
 
+#    - default: languages
+#      template_variables:
+#        use_subtitles: true
+
+    # Subtitle language flags
     - default: languages
+#      schedule_overlays: weekly(sunday|wednesday)
       template_variables:
+        builder_level: episode
         use_subtitles: true
 
+    # Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
+    - default: language_count
+#      schedule_overlays: weekly(sunday|wednesday)
+      template_variables:
+        builder_level: episode
+#-------------------------------------#
+#                       TV settings
+#-------------------------------------#
     settings:
       asset_directory:
       - /Kometa_assets/TV
       prioritize_assets: true
-
+#-------------------------------------#
+#                      TV  operations
+#-------------------------------------#
     operations:
       assets_for_all: true
       assets_for_all_collections: true
@@ -235,18 +259,21 @@ libraries:
       - mdb_tomatoes
       mass_user_rating_update:
       - mdb_tomatoesaudience
-
 #-------------------------------------#
 #                         Movies      #
 #-------------------------------------#
   Movies:
     template_variables:
       language: en
-
+#-------------------------------------#
+#                  Movies  operations
+#-------------------------------------#
     metadata_files:
     - repo: Movies/metadata/movies_mediux.yml
-      schedule: monthly(1)
-
+      schedule: weekly(monday)
+#-------------------------------------#
+#                  Movies operations
+#-------------------------------------#
     collection_files:
     - repo: Movies/collections/Bond.yml
       schedule: monthly(1)
@@ -258,7 +285,7 @@ libraries:
       schedule: monthly(1)
 
     - repo: Movies/collections/heistsandcons.yml
-      schedule: daily
+      schedule: monthly(1)
 
     - default: basic
       schedule: weekly(monday)
@@ -326,20 +353,14 @@ libraries:
         visible_library: true
         visible_shared: true
         collection_order: release.asc
-
+#-------------------------------------#
+#                    Movies overlays
+#-------------------------------------#
     overlay_files:
     - default: ribbon
 
-    - default: status
-      schedule_overlays: weekly(sunday|wednesday)
-      template_variables:
-        back_color_unwatched: '#808080FF'
-        back_color_watched: '#016920FF'
-        back_color_planned: '#005B99FF'
-        back_color_pending: '#CC9900FF'
-
     - default: ratings
-      schedule_overlays: weekly(sunday|wednesday)
+      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         rating1: user
         rating1_image: rt_tomato
@@ -348,15 +369,30 @@ libraries:
         vertical_position: center
 
     - default: commonsense
+      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         horizontal_offset: 0
         vertical_offset: 150
 
+    # Subtitle language flags
+    - default: languages
+      schedule_overlays: weekly(sunday|thursday)
+      template_variables:
+        use_subtitles: true
+
+    # Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
+    - default: language_count
+      schedule_overlays: weekly(sunday|thursday)
+#-------------------------------------#
+#                      Movies settings
+#-------------------------------------#
     settings:
       asset_directory:
       - /Kometa_assets/Movies
       prioritize_assets: true
-
+#-------------------------------------#
+#                    Movies operations
+#-------------------------------------#
     operations:
       assets_for_all: true
       assets_for_all_collections: true
