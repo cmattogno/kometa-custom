@@ -79,8 +79,18 @@ Images:
         EpisodeNamingConvention: static
 ```
 ## bash - ** move-thumbs.sh **
+My script is ready for download in this directory
 
+Aura runs at midnight (default)
+My kometa kicks off at 03:30
+the script kicks off at 02:00
 
+###My CRONTAB
+```
+# AURA downloads at its scheduled time
+# 02:00 - Move episode files to show root
+0 2 * * * /Media_4TB/DOCKER/Kometa/move-thumbs.sh >> /Media_4TB/DOCKER/Kometa/move.log 2>&1
+```
 
 
 
