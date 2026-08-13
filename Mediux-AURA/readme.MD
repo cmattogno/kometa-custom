@@ -8,9 +8,12 @@ My aura.yaml config is avail here in GitHub
 
 The secret is to get aura to download all the files into your Kometa "assets" folder structure.
 
+## Kometa
+
 In your kometa/config/config.yaml make sure your have these options enabled:
 
-```#-------------------------------------#
+```
+#-------------------------------------#
 #                         SETTINGS
 #-------------------------------------#
 settings:
@@ -23,7 +26,8 @@ settings:
   dimensional_asset_rename: true
   prioritize_assets: true
 ```
-```#-------------------------------------#
+```
+#-------------------------------------#
 #                       TV settings
 #-------------------------------------#
 settings:
@@ -38,7 +42,8 @@ settings:
       assets_for_all_collections: true  
 ```
 
-```#-------------------------------------#
+```
+#-------------------------------------#
 #                      Movies settings
 #-------------------------------------#
     settings:
@@ -52,11 +57,12 @@ settings:
       assets_for_all: true
       assets_for_all_collections: true
 ```
-
-## disable aura/plex Websocket Listener.
+## aura - mediux
+### disable aura/plex Websocket Listener.
 These are snippets from my aura/config/config.yaml. The config is pretty easy to follow in the web interface as well. 
 
-```MediaServer:
+```
+MediaServer:
     Type: Plex
     URL: [REDACTED].plex.direct:32400
     ApiToken: [REDACTED]
@@ -66,7 +72,8 @@ These are snippets from my aura/config/config.yaml. The config is pretty easy to
     EnableSortByEpisodeAddedDate: true
     EnablePlexEventListener: false
 ```
-```Images:
+```
+Images:
     CacheImages:
         Enabled: true
     SaveImagesLocally:
