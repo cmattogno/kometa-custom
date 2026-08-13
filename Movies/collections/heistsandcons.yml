@@ -4,7 +4,10 @@
 # Source: From a few lists of the best Heist and Con films
 # Method: plex_search (no external API dependency)
 # Last Updated: 2026
-
+#
+#    Like a Heist or Con flick not lsted here ... 
+#   heistandcons[at]mattogno[dot]net
+#    So I can add them and enjoy them too
 collections:
   Heists and Cons Collection:
     sync_mode: sync
