@@ -6,6 +6,7 @@
 I want a nice looking experience and love Mediux for better poster and for episodic title cards (*-thumb.jpg).
 Aura wants to talk directly with plex to assign it's images in real time. Because of this, aura provides the folder/file structure that Plex expects.
 Kometa doesn't follow that structure and once we break the communication between Plex and Aura we need a script to rename and flatten the structure so Kometa can be in charge. 
+If we keep the Aura/Plex communication open then as soon as the overlays are applied (or any change not initiated by Aura) Aura sees the change and pushes the pristine Mediux image back to Plex, undoing your carefully constructed overlays.
 
 Plex wants the folder structure to be similar to: 
 ```
