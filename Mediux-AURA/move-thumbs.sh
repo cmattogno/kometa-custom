@@ -1,13 +1,15 @@
 #!/bin/bash
-# Rename AURA episode thumbnails to Kometa's expected format
-# Converts: "Show Name - S01E01 - Title-thumb.jpg"
-# To: "S01E01.jpg" inside the show's Season XX folder
+# Move episode thumbnails from Season subfolders to show root
+# for Kometa compatibility
 
-find /Media_4TB/DOCKER/Kometa_assets/TV -name "*-thumb.jpg" | while read f; do
-  dir=$(dirname "$f")
-  se=$(echo "$f" | grep -oP 'S\d{2}E\d{2}')
-  if [ -n "$se" ]; then
-    mv "$f" "$dir/${se}.jpg"
-    echo "Renamed: $(basename "$f") → ${se}.jpg"
-  fi
+find /path/to/Kometa_assets/TV -type d -name "Season*" | while read season_dir; do
+    show_dir=$(dirname "$season_dir")
+    for ep_file in "$season_dir"/S??E??.jpg; do
+        if [ -f "$ep_file" ]; then
+            mv "$ep_file" "$show_dir/"
+            echo "Moved: $(basename "$ep_file") → $(basename "$show_dir")"
+        fi
+    done
+    # Remove empty Season folders
+    rmdir "$season_dir" 2>/dev/null
 done
