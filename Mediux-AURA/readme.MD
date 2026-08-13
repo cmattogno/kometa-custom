@@ -70,6 +70,11 @@ MediaServer:
     EnablePlexEventListener: false
 ```
 ```
+AutoDownload:
+    Enabled: true
+    Cron: 0 0 * * *
+```
+```
 Images:
     CacheImages:
         Enabled: true
@@ -81,9 +86,9 @@ Images:
 ## bash - ** move-thumbs.sh **
 My script is ready for download in this directory
 
-Aura runs at midnight (default)
+Aura runs at midnight (by default)
 My kometa kicks off at 03:30
-the script kicks off at 02:00
+This script kicks off at 02:00
 
 ###My CRONTAB
 ```
@@ -92,32 +97,3 @@ the script kicks off at 02:00
 0 2 * * * /Media_4TB/DOCKER/Kometa/move-thumbs.sh >> /Media_4TB/DOCKER/Kometa/move.log 2>&1
 ```
 
-
-
-
-# Heading 1
-## Heading 2
-### Heading 3
-
-**bold** or __bold__
-*italic* or _italic_
-~~strikethrough~~
-***bold italic***  
-
-- Item one
-- Item two
-  - Nested item
-  - Another nested
-
-  1. First item
-2. Second item
-3. Third item
-
-```code
-block
-```
-
-| Header | Header |
-|--------|--------|
-| Cell   | Cell   |
-| Cell   | Cell   |
