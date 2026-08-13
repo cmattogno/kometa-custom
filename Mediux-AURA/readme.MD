@@ -10,8 +10,6 @@ The secret is to get aura to download all the files into your Kometa "assets" fo
 
 ## Kometa
 
-In your kometa/config/config.yaml make sure your have these options enabled:
-
 ```
 #-------------------------------------#
 #                         SETTINGS
@@ -58,8 +56,7 @@ settings:
       assets_for_all_collections: true
 ```
 ## aura - mediux
-### disable aura/plex Websocket Listener.
-These are snippets from my aura/config/config.yaml. The config is pretty easy to follow in the web interface as well. 
+These are snippets from my aura/config/config.yaml. The config is pretty easy to translate to the web interface. 
 
 ```
 MediaServer:
@@ -81,7 +78,7 @@ Images:
         Path: /Kometa_assets
         EpisodeNamingConvention: static
 ```
-
+## bash - ** move-thumbs.sh **
 
 
 
