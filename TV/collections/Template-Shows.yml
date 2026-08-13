@@ -1,5 +1,9 @@
 # /config/TV/collections/RecommendedShows.yml
-
+#  NEVER USED in PRODUCTION
+# Author: cmattogno
+# Method: plex_search (no Trakt, no external API dependency)
+# Last Updated: 2026
+# 
 collections:
   Must-Watch TV Shows:
     sync_mode: sync
