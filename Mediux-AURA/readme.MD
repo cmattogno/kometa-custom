@@ -3,8 +3,9 @@
 
 ## These setting work for me, it took a while to get this whole shebang working and your mileage may vary
 
-This assumes you have both Kometa & aura running in docker (I run Plex on the host)
-My aura.yaml config is avail here in GitHub
+This assumes you have Kometa & aura running in docker (I run Plex on the host) on a linux host
+
+My aura.yaml [REDACTED] config is avail here in GitHub
 
 The secret is to get aura to download all the files into your Kometa "assets" folder structure.
 
