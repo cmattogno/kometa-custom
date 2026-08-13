@@ -1,5 +1,6 @@
 # /config/TV/collections/RecommendedShows.yml
-#  NEVER USED in PRODUCTION
+# TEMPLATE
+# Not for use in PRODUCTION environment
 # Author: cmattogno
 # Method: plex_search (no Trakt, no external API dependency)
 # Last Updated: 2026
