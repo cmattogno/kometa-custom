@@ -10,12 +10,12 @@ If we keep the Aura/Plex communication open then as soon as the overlays are app
 
 Plex wants the folder structure to be similar to: 
 ```
-      //TV/Arrested Development (2003) {tvdb-72173}/*Season 01/Arrested Development (2003) - S01E01 - Pilot [Bluray-1080p][AC3 2.0][x264].jpg*
+      //TV/Arrested Development (2003) {tvdb-72173}/Season 01/Arrested Development (2003) - S01E01 - Pilot [Bluray-1080p][AC3 2.0][x264].jpg
 ```
 
 Kometa wants the assets folder like:
 ```
-      //Kometa_assets/TV/Arrested Development (2003) {tvdb-72173}/*S01E01.jpg*
+      //Kometa_assets/TV/Arrested Development (2003) {tvdb-72173}/S01E01.jpg
 ```
 
 So my workflow is:
