@@ -20,9 +20,14 @@ Kometa wants the assets folder like:
 
 So my workflow is:
 ```
-00:00 - AURA → auto updates downloads to /Kometa_assets (with NO Plex communication)
-02:00 - Move script → shifts episode files to show root - for ingest by Kometa
-03:30 - Kometa → finds assets, composites overlays, pushes to Plex # I run only Overlays every day to keep up with new episodes, collections, playlists are weekly or monthly. 
+??:?? - Sonarr grabs new episode
+    ↓
+00:00 - AURA downloads Mediux title card → /Kometa_assets (event listener OFF)
+    ↓
+02:00 - Move script shifts S##E##.jpg files to show root folder
+    ↓
+03:00 - Kometa runs → finds assets → composites overlays → pushes to Plex
+        # I run only Overlays every day to keep up with new episodes, collections, playlists, metadata are weekly or monthly. 
 ```
 
 ## These setting work for me, it took a while to get this whole shebang working and your mileage may vary
