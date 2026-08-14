@@ -112,7 +112,7 @@ Images:
 My script is ready for download in this directory
 
 Aura runs at midnight (by default)
-My kometa kicks off at 03:30
+My kometa kicks off at 03:00
 This script kicks off at 02:00
 
 ###My CRONTAB
