@@ -1,0 +1,12 @@
+metadata:
+  - name: "Bruce Campbell"
+    tmdb_person: 11357
+# Optional: if you want a specific headshot instead of TMDB's
+# url_square_art: "https://example.com/bruce.jpg"
+  - name: "Portia De Rossi"
+    tmdb_person: 62010
+# Add more people as needed
+#  - name: "Actor Name"
+#    tmdb_person: #####
+
+# Hail to the king, baby
