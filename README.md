@@ -13,14 +13,14 @@
 
 ### Only run collection|metadata|playlists|operations YAML files, will skip unlisted
 
-| Syntax      |   |
+|  |   |  |
 | ----------- | ----------- |  
-| --collections-only | -co | 
-| --metadata-only | -mo | 
-| --playlists-only | -po | 
-| --operations-only | -op | 
-|  |  |
-| --ignore-schedules | it ignores ... schedules |
+| --collections-only | -co |  |
+| --metadata-only | -mo |  |
+| --playlists-only | -po |  |
+| --operations-only | -op |  |
+|  |  |  |
+| --ignore-schedules | -is |  ignores ... schedules |
 
 ## schedule:
 ```
