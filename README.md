@@ -15,7 +15,7 @@
 
 | Syntax      | Short | 
 | ----------- | ----------- | 
-| ONLY-skipping others |  
+| ONLY - skipping others |  
 | --collections-only | -co | 
 | --metadata-only | -mo | 
 | --playlists-only | -po | 
