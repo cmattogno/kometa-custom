@@ -21,7 +21,7 @@
 | --operations-only | -op | skips others |
 |  |  |  |
 | --ignore-schedules | -is |  ignores ... schedules |
-| --run-collections | -rc | `list pipe delimited "Star Trek|Star Wars" `|
+| --run-collections | -rc | list pipe delimited "Star Trek\|Star Wars" |
 | --delete-collections | -dc |  his will delete ALL collections |
 
 ## schedule:
