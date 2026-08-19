@@ -13,12 +13,12 @@
 
 ### Only run collection YAML files, skip
 
-| Syntax      | Short |
-| ----------- | ----------- |
-| --collections-only | (-co) |
-| --metadata-only | (-mo) |
-| --playlists-only | (-po) |
-| --operations-only | (-op) |
+| Syntax      | Short |  | Syntax      | Short |
+| ----------- | ----------- | ----------- | ----------- |
+| --collections-only | -co |
+| --metadata-only | -mo |
+| --playlists-only | -po |
+| --operations-only | -op |
 
 
 ## schedule:
