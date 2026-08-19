@@ -11,16 +11,16 @@
 
 ## Docker run switches
 
-### Only run collection YAML files, skip
+### Only run collection|metadata|playlists|operations YAML files, will skip unlisted
 
-| Syntax      | Short | 
-| ----------- | ----------- | 
-| ONLY - skipping others |  
+| Syntax      |   |
+| ----------- | ----------- |  
 | --collections-only | -co | 
 | --metadata-only | -mo | 
 | --playlists-only | -po | 
 | --operations-only | -op | 
-
+|  |  |
+| --ignore-schedules | it ignores ... schedules |
 
 ## schedule:
 ```
