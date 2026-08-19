@@ -10,10 +10,10 @@
 `docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows" --dry-run`
 
 ## Docker run switches
---collections-only (-co)
---metadata-only (-mo)
---playlists-only (-po)
---operations-only  (-op)
+- --collections-only (-co)
+- --metadata-only (-mo)
+- --playlists-only (-po)
+- --operations-only  (-op)
 
 
 ## schedule:
