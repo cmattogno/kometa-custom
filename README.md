@@ -9,9 +9,7 @@
 ## Dry run first (preview without changes)
 `docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows" --dry-run`
 
-## Docker run switches
-
-### Only run collection|metadata|playlists|operations YAML files, will skip unlisted
+## Docker runtime switches
 
 | switch |  short |  explain |
 | ----------- | ----------- | ----------- |
