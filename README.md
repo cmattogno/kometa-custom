@@ -15,12 +15,14 @@
 
 | switch |  short |  explain |
 | ----------- | ----------- | ----------- |
-| --collections-only | -co |  |
-| --metadata-only | -mo |  |
-| --playlists-only | -po |  |
-| --operations-only | -op |  |
+| --collections-only | -co | skips others |
+| --metadata-only | -mo | skips others |
+| --playlists-only | -po | skips others |
+| --operations-only | -op | skips others |
 |  |  |  |
 | --ignore-schedules | -is |  ignores ... schedules |
+| --run-collections | -rc | list pipe delimited "Star Trek|Star Wars" |
+| --delete-collections | - dc |  his will delete ALL collections |
 
 ## schedule:
 ```
