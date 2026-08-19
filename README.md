@@ -13,8 +13,8 @@
 
 ### Only run collection|metadata|playlists|operations YAML files, will skip unlisted
 
-|  |   |  |
-| ----------- | ----------- |  
+| switch |  short |  explain |
+| ----------- | ----------- | ----------- |
 | --collections-only | -co |  |
 | --metadata-only | -mo |  |
 | --playlists-only | -po |  |
