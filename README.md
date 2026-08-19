@@ -15,7 +15,8 @@
 
 | Syntax      | Short | * | Syntax      | Short |
 | ----------- | ----------- | ----------- | ----------- |
-| --collections-only | -co |
+| --collections-only | -co | | --collections-only | -co |
+
 | --metadata-only | -mo |
 | --playlists-only | -po |
 | --operations-only | -op |
