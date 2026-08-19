@@ -13,7 +13,7 @@
 
 ### Only run collection YAML files, skip
 
-| Syntax      | Short |  | Syntax      | Short |
+| Syntax      | Short | * | Syntax      | Short |
 | ----------- | ----------- | ----------- | ----------- |
 | --collections-only | -co |
 | --metadata-only | -mo |
