@@ -14,6 +14,7 @@
 ### Only run collection YAML files, skip
 
 | Syntax      | Short |
+| ----------- | ----------- |
 | --collections-only | (-co) |
 | --metadata-only | (-mo) |
 | --playlists-only | (-po) |
