@@ -4,7 +4,7 @@
 #  KOMETA CONFIGURATION               #
 #  TV Shows + Movies                  #
 #  Created: 2026-07-22                #
-#  Updated: 2026-08-13                #
+#  Updated: 2026-08-24                #
 #######################################
 
 #-------------------------------------#
@@ -110,11 +110,13 @@ libraries:
     metadata_files:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
       schedule: monthly(1)
+
+    - repo: TV/metadata/actors.yaml
+      schedule: monthly(1)
 #-------------------------------------#
 #                     TV collections
 #-------------------------------------#
     collection_files:
-
     - repo: TV/collections/MythArcX.yaml
       schedule: monthly(1)
 
@@ -126,13 +128,13 @@ libraries:
 
     - repo: TV/collections/lonegunmen.yml
       schedule: monthly(1)
-      
+
     - repo: TV/collections/trek.yml
       schedule: weekly(thursday)
 
     - repo: TV/collections/gate.yml
       schedule: monthly(1)
-  
+
     - repo: TV/collections/leverage.yml
       schedule: monthly(1)
 
@@ -191,7 +193,7 @@ libraries:
 #-------------------------------------#
 #                      TV  overlays
 #-------------------------------------#
-#    reset_overlays: tmdb #when things go pear shaped
+#    reset_overlays: tmdb      # replace overlays with 'tmdb' default ... or 'plex' defaults
     overlay_files:
     - default: ribbon
 
@@ -213,25 +215,21 @@ libraries:
         vertical_position: center
 
     - default: commonsense
-      schedule_overlays: weekly(sunday|thursday)
+      schedule_overlays: weekly(thursday)
       template_variables:
         horizontal_offset: 0
         vertical_offset: 150
 
-#    - default: languages
-#      template_variables:
-#        use_subtitles: true
-
-    # Subtitle language flags
+# Subtitle language flags
     - default: languages
-#      schedule_overlays: weekly(sunday|wednesday)
+      schedule_overlays: daily
       template_variables:
         builder_level: episode
         use_subtitles: true
 
-    # Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
+# Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
     - default: language_count
-#      schedule_overlays: weekly(sunday|wednesday)
+      schedule_overlays: daily
       template_variables:
         builder_level: episode
 #-------------------------------------#
@@ -277,7 +275,7 @@ libraries:
     collection_files:
     - repo: Movies/collections/Bond.yml
       schedule: monthly(1)
-      
+
     - repo: Movies/collections/BullettsBombsBabes.yml
       schedule: monthly(1)
 
@@ -323,8 +321,6 @@ libraries:
         visible_library: true
         visible_shared: true
         sort_by: title.asc
-        data:
-          limit: 40
 
     - default: imdb
       schedule: weekly(monday)
@@ -343,8 +339,6 @@ libraries:
       template_variables:
         visible_library: true
         visible_shared: true
-        data:
-          minimum: 5
 
     - default: tautulli
       schedule: weekly(monday)
@@ -369,20 +363,17 @@ libraries:
         vertical_position: center
 
     - default: commonsense
-      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         horizontal_offset: 0
         vertical_offset: 150
 
-    # Subtitle language flags
+# Subtitle language flags
     - default: languages
-      schedule_overlays: weekly(sunday|thursday)
       template_variables:
         use_subtitles: true
 
-    # Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
+# Audio/subtitle count (Dual-Audio, Multi-Subtitle)    
     - default: language_count
-      schedule_overlays: weekly(sunday|thursday)
 #-------------------------------------#
 #                      Movies settings
 #-------------------------------------#
@@ -408,3 +399,4 @@ libraries:
       - mdb_tomatoes
       mass_user_rating_update:
       - mdb_tomatoesaudience
+#      - mdb_tomatoesaudience
