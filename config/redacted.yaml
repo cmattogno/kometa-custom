@@ -266,13 +266,13 @@ libraries:
     template_variables:
       language: en
 #-------------------------------------#
-#                  Movies  operations
+#                  Movies  Metadata
 #-------------------------------------#
     metadata_files:
     - repo: Movies/metadata/movies_mediux.yml
       schedule: weekly(monday)
 #-------------------------------------#
-#                  Movies operations
+#                  Movies Collections
 #-------------------------------------#
     collection_files:
     - repo: Movies/collections/Bond.yml
