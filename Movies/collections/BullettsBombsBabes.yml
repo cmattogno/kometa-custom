@@ -13,7 +13,7 @@
 collections:
   Bullets, Bombs, and Babes:
     sync_mode: sync
-    minimum_items: 12
+    minimum_items: 10
     sort_title: "!040_Bullets"
     collection_order: release.asc
     
