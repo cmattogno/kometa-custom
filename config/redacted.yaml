@@ -4,7 +4,7 @@
 #  KOMETA CONFIGURATION               #
 #  TV Shows + Movies                  #
 #  Created: 2026-07-22                #
-#  Updated: 2026-08-24                #
+#  Updated: 2026-10-07                #
 #######################################
 
 #-------------------------------------#
@@ -238,7 +238,7 @@ libraries:
 #-------------------------------------#
     settings:
       asset_directory:
-      - /Kometa_assets/TV
+      - /Kometa_assets/tv
       prioritize_assets: true
 #-------------------------------------#
 #                      TV  operations
@@ -383,7 +383,7 @@ libraries:
 #-------------------------------------#
     settings:
       asset_directory:
-      - /Kometa_assets/Movies
+      - /Kometa_assets/movies
       prioritize_assets: true
 #-------------------------------------#
 #                    Movies operations
