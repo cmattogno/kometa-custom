@@ -111,8 +111,8 @@ libraries:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
       schedule: monthly(1)
 
-    - repo: TV/metadata/actors.yaml
-      schedule: monthly(1)
+#    - repo: TV/metadata/actors.yaml
+#      schedule: monthly(1)
 #-------------------------------------#
 #                     TV collections
 #-------------------------------------#
@@ -133,9 +133,6 @@ libraries:
       schedule: weekly(thursday)
 
     - repo: TV/collections/gate.yml
-      schedule: monthly(1)
-
-    - repo: TV/collections/leverage.yml
       schedule: monthly(1)
 
     - default: basic
@@ -172,7 +169,7 @@ libraries:
     - default: actor
       schedule: weekly(monday)
       template_variables:
-        style: signature
+        style: signature # or rainier
         exclude:
         - Ryan Reynolds
         - Jack Black
@@ -200,6 +197,8 @@ libraries:
     - default: status
       schedule_overlays: weekly(sunday|thursday)
       template_variables:
+        vertical_align: top
+        vertical_offset: 150    # lower number = closer to the top default=330
         back_color_airing: '#016920FF'
         back_color_returning: '#81007FFF'
         back_color_canceled: '#B52222FF'
@@ -213,7 +212,9 @@ libraries:
         rating1_font: LibreFranklin-Bold.ttf
         horizontal_position: left
         vertical_position: center
-
+        vertical_align: bottom
+        vertical_offset: 25%
+        
     - default: commonsense
       schedule_overlays: weekly(thursday)
       template_variables:
@@ -313,14 +314,17 @@ libraries:
     - default: actor
       schedule: weekly(monday)
       template_variables:
-        style: signature
+        style: signature #or ranier
         exclude:
         - Ryan Reynolds
         - Jack Black
         - Dwayne Johnson
+        - Chris Pratt
         visible_library: true
         visible_shared: true
         sort_by: title.asc
+        data:
+         - limit: 40
 
     - default: imdb
       schedule: weekly(monday)
