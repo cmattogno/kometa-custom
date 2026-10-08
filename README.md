@@ -1,13 +1,13 @@
 # Tips
 
 ## Collections only on TV Shows
-`docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows"`
+`docker exec Kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows"`
 
 ## Collections only on ALL libraries
-`docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only`
+`docker exec Kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only`
 
 ## Dry run first (preview without changes)
-`docker exec kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows" --dry-run`
+`docker exec Kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows" --dry-run`
 
 ## Docker runtime switches
 
