@@ -1,5 +1,8 @@
 # Tips
 
+## Show Kometa last run, Warning Summary to end of log
+`awk '/Warning Summary/ { found=1 } found { print }' /share/DOCKER/Kometa/KNG/config/logs/meta.log`
+
 ## Collections only on TV Shows
 `docker exec Kometa python /app/kometa/kometa.py --config /config/config.yml --run --collections-only --library "TV Shows"`
 
