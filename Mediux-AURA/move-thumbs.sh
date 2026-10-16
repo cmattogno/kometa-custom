@@ -2,6 +2,9 @@
 # Move episode thumbnails from Season subfolders to show root
 # for Kometa compatibility
 
+# run check, add #### marker in log
+/bin/echo "#######  $(date)  #########" >> /share/Documents/Scripts/MoveThumbs/move.log
+# Change the path to actual
 find /path/to/Kometa_assets/TV -type d -name "Season*" | while read season_dir; do
     show_dir=$(dirname "$season_dir")
     for ep_file in "$season_dir"/S??E??.jpg; do
