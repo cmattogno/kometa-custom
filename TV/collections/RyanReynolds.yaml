@@ -4,7 +4,7 @@ collections:
     plex_search:
       all:
         title: "Two Guys, a Girl and a Pizza Place"
-    sort_title: "!Ryan Reynolds"
+    sort_title: "!140_Ryan Reynolds"
     summary: "The one Ryan Reynolds we allow. Milwaukee's finest, before the abs, the aviation, and the Welsh football."
     visible_home: false
     visible_shared: true
