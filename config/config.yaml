@@ -111,6 +111,7 @@ libraries:
     metadata_files:
     - repo: TV/metadata/xfiles.movies.tvdb.yaml
       schedule: monthly(1)
+
    - repo: TV/metadata/arresteddevelopment.yaml
       schedule: monthly (15)
 
