@@ -50,7 +50,7 @@ github:
 #-------------------------------------#
 settings:
   asset_depth: 4
-  asset_directory: []
+  asset_directory: /Kometa_assets
   asset_folders: true
   cache: true
   cache_expiration: 60
