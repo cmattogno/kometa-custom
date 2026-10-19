@@ -200,7 +200,8 @@ libraries:
 #    remove_overlays: true
     overlay_files:
     - default: ribbon
-
+    - default: versions 
+    
     - default: status
       schedule_overlays: weekly(sunday|thursday)
       template_variables:
@@ -369,6 +370,7 @@ libraries:
 #-------------------------------------#
     overlay_files:
     - default: ribbon
+    - default: versions 
 
     - default: ratings
       schedule_overlays: weekly(sunday|thursday)
